@@ -59,7 +59,7 @@ function Hero() {
         </div>
 
 
-        <div className=''>
+        <div className='text-center'>
 
           <div className='flex items-center gap-2'>
 
