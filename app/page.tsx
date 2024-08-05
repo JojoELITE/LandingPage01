@@ -6,9 +6,10 @@ export default function Home() {
   return (
     <main className="">
 
+      <div className="bg-[#291D5D]">
+        <Header />
+      </div>
 
-        <Header/>
- 
 
     </main>
   );
