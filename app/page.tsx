@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "./Components/Header";
+import Hero from "./Components/Hero";
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
 
       <div className="bg-[#291D5D]">
         <Header />
+        <Hero/>
+
       </div>
 
 

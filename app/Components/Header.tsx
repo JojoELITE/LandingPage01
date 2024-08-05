@@ -12,7 +12,7 @@ function Header() {
 
     return (
 
-        <nav className='flex justify-between p-10 cursor-pointer'>
+        <nav className='flex justify-between p-10 cursor-pointer sticky top-0'>
 
             <div>
                 <Image
