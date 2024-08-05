@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
     return (
 
-        <nav className='flex justify-between p-8 cursor-pointer bg-[#291D5D]'>
+        <nav className='flex justify-between p-10 cursor-pointer bg-[#291D5D]'>
 
             <div>
                 Logo
