@@ -24,7 +24,7 @@ function Header() {
             </div>
 
 
-            <div className='hidden md:block'>
+            <div className='hidden md:flex gap-6'>
                 <div className='ml-4 flex items-center space-x-4'>
 
                     <ul className='flex gap-6 text-sm'>
@@ -36,7 +36,16 @@ function Header() {
 
                 </div>
 
+                <button className="border border-white hover:bg-white hover:text-[#291D5D] text-white text-sm py-0.5 px-4 rounded-full">
+                    Contact
+                </button>
+
+
+
             </div>
+
+
+
 
 
 
