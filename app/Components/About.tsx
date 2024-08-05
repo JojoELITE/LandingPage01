@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image';
 
 function About() {
   return (
@@ -28,15 +27,7 @@ function About() {
 
         </div>
 
-        <div className='py-20'>
-                <Image
-                    src="/assets/TemplateOne.png"
-                    alt="image"
-                    width={200}
-                    height={550}
-                />
-            </div>
-
+        
         
     </section>
   )
