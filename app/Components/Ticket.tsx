@@ -133,7 +133,7 @@ function Ticket() {
                 </div>
 
 
-                <div className='flex justify-center gap-10'>
+                <div className='flex justify-center gap-10 p-6'>
                     <div className='flex'>
                         <SquareMenu />
                         <p className='text-black'>videohive</p>

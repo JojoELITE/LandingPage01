@@ -6,10 +6,12 @@ import EventInfo from "./Components/EventInfo";
 import Schedule from "./Components/Schedule";
 import Speakers from "./Components/Speakers"
 import Ticket from "./Components/Ticket";
+import Testimony from "./Components/Testimony";
+import Footer from "./Components/Footer";
 
 export default function Home() {
   return (
-    <main className="h-screen">
+    <main className="w-full h-full">
 
       <div className="bg-[#291D5D]">
         <Header />
@@ -32,6 +34,14 @@ export default function Home() {
 
       <div>
         <Ticket/>
+      </div>
+
+      <div>
+        <Testimony/>
+      </div>
+
+      <div>
+        <Footer/>
       </div>
 
     </main>

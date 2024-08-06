@@ -15,7 +15,7 @@ function Header() {
 
     return (
 
-        <nav className='flex justify-between p-10 cursor-pointer sticky top-0 z-50'>
+        <nav className=' flex justify-between p-10 cursor-pointer sticky top-0 z-50'>
 
             <div>
                 <Image
