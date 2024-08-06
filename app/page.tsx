@@ -2,7 +2,7 @@ import React from "react";
 
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
-import About from "./Components/About";
+import EventInfo from "./Components/EventInfo";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       </div>
 
       <div>
-        <About/>
+        <EventInfo/>
       </div>
 
 
