@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import EventInfo from "./Components/EventInfo";
 import Schedule from "./Components/Schedule";
+import Speakers from "./Components/Speakers"
 
 export default function Home() {
   return (
@@ -21,6 +22,10 @@ export default function Home() {
 
       <div>
         <Schedule/>
+      </div>
+
+      <div>
+        <Speakers/>
       </div>
 
 
