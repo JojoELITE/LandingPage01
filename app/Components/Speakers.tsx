@@ -221,7 +221,7 @@ function Speakers() {
 
             </div>
 
-            <div className='flex justify-center '>
+            <div className='flex justify-center p-10'>
                 <button className="border border-white hover:bg-white hover:text-[#291D5D] text-white text-sm py-0.5 px-4 rounded-full">
                     Contact
                 </button>
