@@ -1,6 +1,9 @@
 "use client";
 
 import React, { useState } from 'react'
+import { X } from 'lucide-react';
+import { SquareMenu } from 'lucide-react';
+
 import Image from 'next/image';
 
 function Header() {
@@ -40,78 +43,46 @@ function Header() {
                     Contact
                 </button>
 
-
-
             </div>
-
-
-
-
-
-
-
 
 
             <div className='md:hidden '>
 
-                <button className='inline-flex items-center  p-2 ' onClick={toggleNavbar}>
+                <button className='inline-flex  items-center p-2' onClick={toggleNavbar}>
                     {isClick ? (
 
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24" height="24"
-                            viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            className="lucide lucide-x">
-                            <rect width="18" height="18" x="3" y="3" rx="2" />
-                            <path d="M18 6 6 18" />
-                            <path d="m6 6 12 12" />
-                        </svg>
+                        <X className='ml-8 ' />
+
 
                     ) : (
 
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            className="lucide lucide-square-menu">
-                            <rect width="18" height="18" x="3" y="3" rx="2" />
-                            <path d="M7 8h10" />
-                            <path d="M7 12h10" />
-                            <path d="M7 16h10" />
-                        </svg>
+                        <SquareMenu />
+
 
                     )}
                 </button>
 
+
+                {
+                    isClick && (
+                        <div className='md:hidden mt-6'>
+                            <ul className=' text-sm'>
+                                <li className=''>Schedule</li>
+                                <li className=''>Speakers</li>
+                                <li className=''>Ticket</li>
+                                <li className=''>Contact</li>
+                            </ul>
+
+                            <button className="border border-white hover:bg-white hover:text-[#291D5D] text-white text-sm py-0.5 px-4 rounded-full">
+                                Contact
+                            </button>
+
+                        </div>
+
+                    )}
+
             </div>
 
-            {
-                isClick && (
-                    <div className='md:hidden'>
-                        <ul className=' block text-sm py-20'>
-                            <li className=''>Schedule</li>
-                            <li className=''>Speakers</li>
-                            <li className=''>Ticket</li>
-                            <li className=''>Contact</li>
-                        </ul>
-
-                        <button className="border border-white hover:bg-white hover:text-[#291D5D] text-white text-sm py-0.5 px-4 rounded-full">
-                            Contact
-                        </button>
-
-                    </div>
-
-                )}
 
         </nav>
 

@@ -7,7 +7,7 @@ function About() {
 
             <div className='flex flex-col sm:flex-row md:flex-row gap-12 py-4'>
 
-                <div className='flex justify-between gap-4'>
+                <div className='flex gap-4'>
                     <div>
                         <div>
                             <div className="bg-gray-200 px-14 py-20 rounded-lg w-[50%]">
