@@ -11,7 +11,7 @@ import Footer from "./Components/Footer";
 
 export default function Home() {
   return (
-    <main className="mx-auto">
+    <main className="mx-auto container">
 
       <div className="bg-[#291D5D]">
         <Header />

@@ -15,7 +15,7 @@ function Header() {
 
     return (
 
-        <nav className=' flex justify-between p-10 cursor-pointer sticky top-0 z-50 w-screen'>
+        <nav className=' flex justify-between p-10 cursor-pointer sticky top-0 z-50 w-full h-full'>
 
             <div>
                 <Image
@@ -31,7 +31,7 @@ function Header() {
                 <div className='ml-4 flex items-center space-x-4'>
 
                     <ul className="flex space-x-6">
-                        <li><a href="#schedule" className="hover:underline">Schedulem</a></li>
+                        <li><a href="#schedule" className="hover:underline">Schedule</a></li>
                         <li><a href="#speakers" className="hover:underline">Speakers</a></li>
                         <li><a href="#tickets" className="hover:underline">Tickets</a></li>
                         <li><a href="#contact" className="hover:underline">Contact</a></li>
