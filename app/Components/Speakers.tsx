@@ -16,16 +16,16 @@ function Speakers() {
 
             <div>
                 <div className=' text-center py-6'>
-                    <h6 className='text-[8px] mt-4 text-[#FD2284]'>A PROPOS DE LA CONFÉRENCE</h6>
-                    <h2 className="text-xl font-bold ">BIENVENUE À LA <br />CONFÉRENCE <br />NUMÉRIQUE 2024</h2>
-                    <p className="mt-2  text-[6px]">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, esse nam nostrum <br />dolor veniam placeat sit blanditiis brarchitecto qui vero odio cumque vitae <br /> minima laudantium rem id? Labore, sapiente recusandae.
+                    <h6 className='text-[8px] mt-4 text-[#FD2284] uppercase'>Intervenants de la Conférence et Événements</h6>
+                    <h2 className="text-xl font-bold uppercase mt-2">Les speakers</h2>
+                    <p className="mt-2  text-[8px]">
+                        Plus de 40 Conférenciers inspirantes, rencontrez les meilleurs <br />specialitses des produits du monde entier et faites la fête <br />ensemble après l'événement!
                     </p>
 
                 </div>
             </div>
 
-            <div className='flex justify-between flex-col sm:flex-row md:flex-row p-10'>
+            <div className='flex justify-center flex-col sm:flex-row md:flex-row p-10 gap-24'>
                 <div>
                     <Image
                         className='absolute'
@@ -123,8 +123,8 @@ function Speakers() {
 
             </div>
 
-            <div className='flex justify-between flex-col sm:flex-row md:flex-row p-10'>
-            <div>
+            <div className='flex justify-center flex-col sm:flex-row md:flex-row p-10 gap-24'>
+                <div>
                     <Image
                         className='absolute'
                         src="/assets/photo.png"

@@ -2,17 +2,16 @@ import React from 'react'
 
 function Schedule() {
     return (
-        <div className='flex flex-col sm:flex-row md:flex-row bg-[#F9FAFF] p-10 gap-10'>
+        <div className='flex flex-col sm:flex-row md:flex-row bg-[#F9FAFF] p-10 gap-14'>
             <div>
                 <div className=''>
-                    <h6 className='text-[8px] mt-4 text-[#FD2284]'>A PROPOS DE LA CONFÉRENCE</h6>
-                    <h2 className="text-xl font-bold text-black">BIENVENUE À LA <br />CONFÉRENCE <br />NUMÉRIQUE 2024</h2>
-                    <p className="mt-2 text-black text-[6px]">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, esse nam nostrum <br />dolor veniam placeat sit blanditiis brarchitecto qui vero odio cumque vitae <br /> minima laudantium rem id? Labore, sapiente recusandae.
-                    </p>
+                    <h6 className='text-[8px] mt-4 text-[#FD2284] uppercase'>HORAIRE DE L'ÉVÉNEMENT</h6>
+                    <h2 className="text-xl font-bold text-black uppercase">LISTE DES <br />ÉVÉNEMENTS <br />PRÉVUS</h2>
+                    <p className="mt-2 text-black text-[8px]">
+                    Inscrivez-vous à notre série de webinaires <br />et de sessions interactives pour en savoir plus <br /> sur les dernières technologies et innovations.</p>
 
-                    <button className="border border-[#FD2284] hover:bg-[#FD2284] hover:text-white text-[#FD2284] text-xs py-0.5 px-3 mt-10 rounded-full">
-                        Contactez-nous
+                    <button className="border border-[#FD2284] hover:bg-[#FD2284] hover:text-white text-[#FD2284] text-[8px] py-0.5 px-3 mt-3 rounded-full">
+                        Télécharger le calendrier
                     </button>
                 </div>
 
@@ -40,7 +39,7 @@ function Schedule() {
 
 
             <div>
-                <div className='flex  rounded-full gap-6 w-2/3 mt-4 bg-[#EFF1FD] p-1'>
+                <div className='flex  justify-center rounded-full gap-6  mt-4 bg-[#EFF1FD] p-1'>
                     <div className='rounded-full  px-4 py-1 bg-white text-black text-center'>
                         <h4 className='text-[8px]'>PREMIER JOUR</h4>
                         <h4 className='text-[8px] font-bold '>22 Mars 2024</h4>

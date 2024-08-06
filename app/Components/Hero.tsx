@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import { Calendar } from 'lucide-react';
 
 import { Play } from 'lucide-react';
@@ -18,17 +19,17 @@ function Hero() {
         </div>
 
         <div>
-          <h1 className="sm:text-6xl md:text-4xl lg:text-3xl font-bold">
+          <h1 className="sm:text-5xl md:text-3xl lg:text-2xl font-bold">
             LA CONFÉRENCE <br />POUR LES STARTUPS <br />GABONAISE</h1>
         </div>
 
-        <div className=''>
+        <div className='mt-2'>
         <p className="sm:text-[6px] md:text-[8px] lg:text-[px]">
             La Conférence sur les technologies numériques 2024 célèbre l'innovation et <br /> les startups dans les nouvelles technologies. Sauvez les moments pour <br /> vous engager et réseauter comme jamais.
           </p>
         </div>
 
-        <div className="flex items-center gap-2">
+        <Link href="#" className="flex items-center gap-2">
           <div className="w-5 h-5 mt-8 border border-[#B82078] rounded-full flex items-center justify-center">
             <div className="w-3 h-3 bg-white rounded-full ">
               <Play className='mt-0.5 ml-0.5' color="black" size={8} />
@@ -39,7 +40,7 @@ function Hero() {
           <div className='text-[8px] mt-8 '>
             Regarder le teaser
           </div>
-        </div>
+        </Link>
 
 
       </div>

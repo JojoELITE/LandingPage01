@@ -30,12 +30,12 @@ function About() {
 
                 <div className=''>
                     <h6 className='text-[8px] mt-4 text-[#FD2284]'>A PROPOS DE LA CONFÉRENCE</h6>
-                    <h2 className="text-3xl font-bold text-black">BIENVENUE À LA <br />CONFÉRENCE <br />NUMÉRIQUE 2024</h2>
+                    <h2 className="text-xl font-bold text-black">BIENVENUE À LA <br />CONFÉRENCE <br />NUMÉRIQUE 2024</h2>
                     <p className="mt-2 text-black text-[8px]">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, esse nam nostrum <br />dolor veniam placeat sit blanditiis brarchitecto qui vero odio cumque vitae <br /> minima laudantium rem id? Labore, sapiente recusandae.
                     </p>
 
-                    <button className="border border-[#FD2284] hover:bg-[#FD2284] hover:text-white text-[#FD2284] text-xs py-0.5 px-3 mt-10 rounded-full">
+                    <button className="border border-[#FD2284] hover:bg-[#FD2284] hover:text-white text-[#FD2284] text-[8px] py-0.5 px-3 mt-4 rounded-full">
                         Contactez-nous
                     </button>
                 </div>
