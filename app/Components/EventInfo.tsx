@@ -5,7 +5,7 @@ function About() {
 
         <section className='p-10 bg-white'>
 
-            <div className='flex flex-col sm:flex-row md:flex-row  gap-12 py-4'>
+            <div className='flex flex-col sm:flex-row md:flex-row gap-12 py-4'>
 
                 <div className='flex justify-between gap-4'>
                     <div>

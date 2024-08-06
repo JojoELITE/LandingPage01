@@ -24,7 +24,7 @@ function Header() {
             </div>
 
 
-            <div className='hidden md:flex gap-6'>
+            <div className='hidden sm:flex gap-6'>
                 <div className='ml-4 flex items-center space-x-4'>
 
                     <ul className="flex space-x-6">
