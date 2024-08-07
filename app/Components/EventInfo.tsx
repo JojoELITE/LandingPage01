@@ -10,10 +10,10 @@ function About() {
                         <div className="flex gap-4">
                             <div>
                                 <div className="bg-gray-200 px-20 py-28 rounded-lg w-[50%]"></div>
-                                <div className="bg-gray-200 ml-6 mt-4 px-16 py-14 rounded-lg w-[20%]"></div>
+                                <div className="bg-gray-200 ml-8 mt-4 px-16 py-14 rounded-lg w-[20%]"></div>
                             </div>
                             <div>
-                                <div className="bg-gray-200 mt-8 px-20 py-20 rounded-lg w-[30%]">
+                                <div className="bg-gray-200 mt-8 px-16 py-20 rounded-lg w-[30%]">
                                     <div className="h-32"></div>
                                 </div>
                             </div>

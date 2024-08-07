@@ -21,22 +21,18 @@ function Footer() {
                         </p>
                     </div>
 
-                    <div className="flex items-center gap-2 bg-white mt-2 w-[70%] rounded-full">
-                        <div className="py-2 px-4">
-                            <input
-                                className="rounded-full text-[14px] lg:text-[18px] py-1 px-3 border-none focus:outline-none text-black"
-                                type="text"
-                                id="email"
-                                name="email"
-                                placeholder="Entrez votre email"
-                            />
+                    <form className="w-full max-w-sm bg-white rounded-full mt-5">
+                        <div className="flex items-center py-2 px-3">
+                            <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Entrez votre mail" id="email"
+                                name="email" aria-label="Full name" />
+                            <button className="flex-shrink-0 bg-pink-500 text-sm border-4 text-white py-1 px-2 w-10 h-10 rounded-full" type="button">
+                                <ChevronRight color="white" size={18} />
+                            </button>
                         </div>
-                        <div className="rounded-full bg-pink-500 w-6 h-6 lg:w-8 lg:h-8 flex items-center justify-center">
-                            <ChevronRight color="white" size={18} />
-                        </div>
-                    </div>
+                    </form>
 
-                    <div className="flex items-center gap-2 mt-4">
+
+                    <div className="flex items-center gap-2 mt-5">
                         <Link href="#">
                             <Facebook fill="black" stroke="none" size={18} />
                         </Link>

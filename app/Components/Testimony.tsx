@@ -35,29 +35,30 @@ function Testimony() {
                         <div className="rounded-full bg-gray-300 w-8 h-8"></div>
                         <div className="text-black">
                             <p className="font-bold">Stevano Gonzoles</p>
-                            <p className="text-sm text-gray-500">Product Manager oh Google</p>
+                            <p className="text-sm text-gray-500">Product Manager on Google</p>
                         </div>
                     </div>
 
                     <div className="flex gap-1 mt-1">
                         <Link href="#">
-                            <MoveLeft color="gray" size={18} />
+                            <MoveLeft color="gray" size={50} />
                         </Link>
                         <Link href="#">
-                            <MoveRight color="#FD2284" size={18} />
+                            <MoveRight color="#FD2284" size={50} />
                         </Link>
                     </div>
                 </section>
 
-                <div className="w-full lg:w-1/2">
+                <div className="w-full lg:w-1/2 hidden lg:block">
                     <Image
-                        className="w-[50%] h-[80%] rounded-full ml-24 lg:ml-0 mt-0 lg:mt-10"
+                        className="w-[50%] h-[80%] rounded-full ml-10 lg:ml-0 mt-0 lg:mt-10"
                         src="/assets/couleur.png"
                         alt="Logo"
                         width={100}
                         height={100}
                     />
                 </div>
+
             </main>
         </div>
     )

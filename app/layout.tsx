@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
 
-        <header>
+        <header className="sticky top-0 z-50">
 
           <Header />
 
@@ -31,9 +31,9 @@ export default function RootLayout({
 
 
         <footer className="bg-white text-black px-36 py-16">
-          <div className="container mx-auto text-center flex flex-col md:flex-row justify-between items-center">
+          <div className="container mx-auto text-center flex gap-6 md:flex-row justify-between ">
             <p className="mb-4 md:mb-0">&copy; 2024 .Eventi. Tous droits réservés.</p>
-            <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+            <div className="flex flex-col md:flex-row  space-y-4 md:space-y-0 md:space-x-4">
               <a href="#" className="hover:underline">Politique de confidentialité</a>
               <a href="#" className="hover:underline">Term & Condition</a>
             </div>
