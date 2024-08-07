@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./Components/Header";
-import Footer from "./Components/Footer";
+import Footer from "./Components/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,25 +28,24 @@ export default function RootLayout({
 
           <Header />
 
-
-
         </header>
-
 
 
         {children}
 
 
-        <footer
-          style={{
-            padding: "1rem",
-          }}
-        >
-
+        <footer className="bg-white text-black px-36 py-16">
+          <div className="container mx-auto text-center flex flex-col md:flex-row justify-between items-center">
+            <p className="mb-4 md:mb-0">&copy; 2024 .Eventi. Tous droits réservés.</p>
+            <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+              <a href="#" className="hover:underline">Politique de confidentialité</a>
+              <a href="#" className="hover:underline">Term & Condition</a>
+            </div>
+          </div>
         </footer>
 
 
-    </body>
+      </body>
     </html >
   );
 }

@@ -9,94 +9,15 @@ import { MapPin } from 'lucide-react';
 
 function Hero() {
   return (
-    /*<div className='flex flex-col sm:flex-row md:flex-row justify-between container p-10'>
-
-      <div className=''>
-        <div className='flex gap-2 items-center'>
-          <div className="border-b-2 border-[#FEAE37] w-10 my-2">
-          </div>
-          <h5 className='font-bold'>2024</h5>
-        </div>
-
-        <div>
-          <h1 className="sm:text-5xl md:text-3xl lg:text-2xl font-bold">
-            LA CONFÉRENCE <br />POUR LES STARTUPS <br />GABONAISE</h1>
-        </div>
-
-        <div className='mt-2'>
-        <p className="sm:text-[6px] md:text-[8px] lg:text-[px]">
-            La Conférence sur les technologies numériques 2024 célèbre l'innovation et <br /> les startups dans les nouvelles technologies. Sauvez les moments pour <br /> vous engager et réseauter comme jamais.
-          </p>
-        </div>
-
-        <Link href="#" className="flex items-center gap-2">
-          <div className="w-5 h-5 mt-8 border border-[#B82078] rounded-full flex items-center justify-center">
-            <div className="w-3 h-3 bg-white rounded-full ">
-              <Play className='mt-0.5 ml-0.5' color="black" size={8} />
-            </div>
-
-          </div>
-
-          <div className='text-[8px] mt-8 '>
-            Regarder le teaser
-          </div>
-        </Link>
-
-
-      </div>
-
-
-
-
-
-
-
-
-      <div className='bg-[#FEDE00] rounded-lg p-12  text-center	'>
-        <p className='text-[12px] text-black '>Evénement à venir 2024</p>
-        <h6 className='text-[14px] text-black font-bold '>Digital Technologies</h6>
-
-        <div className="border-b-2 border-white m-3">
-        </div>
-
-
-        <div className='text-center'>
-
-          <div className='flex items-center gap-2'>
-
-            <MapPin color="black" size={20} />
-
-
-            <h6 className='text-xs text-black'>
-              ABC Mail Libreville
-            </h6>
-          </div>
-
-          <div className='flex items-center gap-2 mt-1'>
-
-            <Calendar color="black" size={20} />
-
-            <h6 className='text-xs text-black'>
-              22-24 March 2024
-            </h6>
-          </div>
-
-        </div>
-
-
-      </div>
-
-    </div>*/
-
     <main className="container mx-auto bg-[#291D5D] p-12">
       <section className="flex flex-col md:flex-row items-center justify-between py-8">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <div className='flex gap-2 items-center'>
-          <div className="border-b-2 border-[#FEAE37] w-10 my-2">
-          </div>
+            <div className="border-b-2 border-[#FEAE37] w-10 my-2">
+            </div>
             <h5 className='font-bold text-2xl'>2024</h5>
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-white">
+          <h1 className="text-3xl md:text-5xl font-bold text-white">
             LA CONFÉRENCE <br />POUR LES STARTUPS <br />GABONAISE
           </h1>
           <p className="text-white text-[18px] mt-4">
@@ -120,9 +41,9 @@ function Hero() {
         </div>
 
         <div className="md:w-1/3 bg-[#FEDE00] rounded-lg p-8 text-center">
-          <p className=" text-black">Evénement à venir 2024</p>
-          <h6 className=" text-black font-bold">Digital Technologies</h6>
-          <div className="border-b-2 border-white my-3 mx-6 w-[80%]"></div>
+          <p className=" text-black text-xl">Evénement à venir 2024</p>
+          <h6 className=" text-black text-xl font-bold">Digital Technologies</h6>
+          <div className="border-b-2 border-white my-3 mx-3 w-[80%] ml-8"></div>
           <div className="text-center">
             <div className="flex items-center gap-2 justify-center">
               <MapPin color="black" size={20} />
