@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
     return (
         <div>
-            
+
             <main className="container mx-auto bg-white p-12">
                 <section className="flex flex-col md:flex-row gap-32">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">

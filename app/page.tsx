@@ -26,15 +26,13 @@ export default function Home() {
 
         <Speakers />
 
-        <Ticket/>
+        <Ticket />
 
         <Sponsors />
 
-        <Testimony/>
+        <Testimony />
 
         <Contact />
-
-
 
       </main>
 

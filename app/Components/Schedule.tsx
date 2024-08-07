@@ -60,7 +60,7 @@ function Schedule() {
                                 </div>
 
                                 <div className="flex flex-col items-center py-5 text-white hidden md:block sm:block">
-                                <div className="rounded-full px-2 bg-[#FD2284] ">1</div>
+                                    <div className="rounded-full px-2 bg-[#FD2284] ">1</div>
                                     <div className="border-l-2 border-[#FD2284] py-[35px]  ml-3"></div>
                                     <div className="rounded-full px-2 bg-[#FD2284] ">2</div>
                                     <div className="border-l-2 border-[#FD2284] py-[33px]  ml-3"></div>

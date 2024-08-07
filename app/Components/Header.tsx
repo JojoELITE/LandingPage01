@@ -9,11 +9,11 @@ function Header() {
 
     const [isClick, setIsClick] = useState(false);
     const toggleNavbar = () => {
-      setIsClick(!isClick);
+        setIsClick(!isClick);
     };
 
     return (
-        
+
         <div>
             <header className="bg-[#291D5D] text-white ">
                 <nav className="container mx-auto flex justify-between items-center p-12">
