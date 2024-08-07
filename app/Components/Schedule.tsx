@@ -13,7 +13,7 @@ function Schedule() {
                                 LISTE DES <br />ÉVÉNEMENTS <br />PRÉVUS
                             </h2>
                             <p className="mt-2 text-gray-500 text-base md:text-lg">
-                                Inscrivez-vous à notre série de webinaires <br />et de sessions interactives pour en savoir plus <br /> sur les dernières technologies et innovations.
+                                Inscrivez-vous à notre série de webinaires et de sessions interactives pour en savoir plus sur les dernières technologies et innovations.
                             </p>
 
                             <button className="mt-6 text-pink-500 py-2 px-4 border border-pink-500 rounded-full">
