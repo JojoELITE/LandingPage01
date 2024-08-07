@@ -8,7 +8,7 @@ import { MoveRight } from 'lucide-react';
 
 function Testimony() {
     return (
-        <div className='p-10 bg-white flex'>
+        <div className='p-20 bg-white flex'>
             <div>
                 <div className=''>
                     <h6 className='text-[8px] mt-4 text-[#FD2284]'>CE QUE DISENT NOS INTERNAUTES</h6>

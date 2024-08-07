@@ -8,7 +8,7 @@ import { Twitter } from 'lucide-react';
 
 function Footer() {
     return (
-        <div className='p-10 bg-blue-100'>
+        <div className='p-20 bg-blue-100'>
 
             <div className='flex justify-between'>
 
