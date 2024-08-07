@@ -51,7 +51,7 @@ function Testimony() {
 
                 <div className="w-full lg:w-1/2 hidden lg:block">
                     <Image
-                        className="w-[50%] h-[80%] rounded-full ml-10 lg:ml-0 mt-0 lg:mt-10"
+                        className="w-[50%] h-[80%] rounded-full ml- lg:ml-0 mt-0 lg:mt-10"
                         src="/assets/couleur.png"
                         alt="Logo"
                         width={100}
