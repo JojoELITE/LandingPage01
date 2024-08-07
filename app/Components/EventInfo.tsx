@@ -5,12 +5,12 @@ function About() {
         <div>
 
             <main className="container mx-auto bg-white p-12">
-                <section className="flex flex-col md:flex-row gap-32">
+                <section className="flex flex-col md:flex-row gap-28">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
                         <div className="flex gap-4">
                             <div>
-                                <div className="bg-gray-200 px-20 py-28 rounded-lg w-[50%]"></div>
-                                <div className="bg-gray-200 ml-8 mt-4 px-16 py-14 rounded-lg w-[20%]"></div>
+                                <div className="bg-gray-200 px-16 py-28 rounded-lg w-[50%]"></div>
+                                <div className="bg-gray-200 ml-8 mt-4 px-12 py-14 rounded-lg w-[20%]"></div>
                             </div>
                             <div>
                                 <div className="bg-gray-200 mt-8 px-16 py-20 rounded-lg w-[30%]">

@@ -17,14 +17,15 @@ function Hero() {
             </div>
             <h5 className='font-bold text-2xl'>2024</h5>
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold text-white">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-tight">
             LA CONFÉRENCE <br />POUR LES STARTUPS <br />GABONAISE
           </h1>
-          <p className="text-white text-[18px]* mt-4">
+          <p className="text-white text-base md:text-lg mt-4">
             La Conférence sur les technologies émergentes 2024 aborde la tendance et
             les meilleures techniques de nouvelle génération. Sauvez votre invitation pour
             apprendre l'avenir imminent et actuel.
           </p>
+
 
           <Link href="#" className="flex items-center gap-2">
             <div className="w-5 h-5 mt-8 border border-[#B82078] rounded-full flex items-center justify-center">
