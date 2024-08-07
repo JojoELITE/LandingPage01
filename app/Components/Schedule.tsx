@@ -12,26 +12,27 @@ function Schedule() {
                             <h2 className="text-3xl text-black uppercase">
                                 LISTE DES <br />ÉVÉNEMENTS <br />PRÉVUS
                             </h2>
-                            <p className="mt-2 text-gray-500 text-[16px]">
+                            <p className="mt-2 text-gray-500 text-base md:text-lg">
                                 Inscrivez-vous à notre série de webinaires <br />et de sessions interactives pour en savoir plus <br /> sur les dernières technologies et innovations.
                             </p>
+
                             <button className="mt-6 text-pink-500 py-2 px-4 border border-pink-500 rounded-full">
                                 Télécharger le calendrier
                             </button>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
-                        <div className="flex gap-4 mt-8">
-                            <div>
-                                <div className="bg-gray-200 px-16 py-28 rounded-lg w-[50%]"></div>
-                                <div className="bg-gray-200 ml-8 mt-4 px-12 py-14 rounded-lg w-[20%]"></div>
-                            </div>
-                            <div>
-                                <div className="bg-gray-200 mt-8 px-16 py-20 rounded-lg w-[30%]">
-                                    <div className="h-32"></div>
+                                <div className="flex gap-4 mt-8">
+                                    <div>
+                                        <div className="bg-gray-200 px-16 py-16 rounded-lg w-[50%]"></div>
+                                        <div className="bg-gray-200 ml-8 mt-4 px-12 py-14 rounded-lg w-[20%]"></div>
+                                    </div>
+                                    <div>
+                                        <div className="bg-gray-200 mt-14 px-14 py-4 rounded-lg w-[30%]">
+                                            <div className="h-32"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
                         </div>
 
                         <div className="md:w-full">
