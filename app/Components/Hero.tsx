@@ -9,7 +9,7 @@ import { MapPin } from 'lucide-react';
 
 function Hero() {
   return (
-    <main className="container mx-auto bg-[#291D5D] p-12">
+    <main className="container mx-auto bg-[#291D5D] p-20">
       <section className="flex flex-col md:flex-row items-center justify-between py-8">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <div className='flex gap-2 items-center'>
@@ -27,7 +27,7 @@ function Hero() {
           </p>
 
 
-          <Link href="#" className="flex items-center gap-2">
+          <Link href="https://youtube.com/" className="flex items-center gap-2">
             <div className="w-5 h-5 mt-8 border border-[#B82078] rounded-full flex items-center justify-center">
               <div className="w-3 h-3 bg-white rounded-full ">
                 <Play className='mt-0.5 ml-0.5' color="black" size={8} />
@@ -35,7 +35,7 @@ function Hero() {
 
             </div>
 
-            <div className='mt-8 '>
+            <div className='mt-8 text-[18px] '>
               Regarder le teaser
             </div>
           </Link>

@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./Components/Header";
-import Footer from "./Components/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,10 +29,10 @@ export default function RootLayout({
         {children}
 
 
-        <footer className="bg-white text-black px-6 py-8 lg:px-36 lg:py-16">
+        <footer className="bg-white text-black p-16">
           <div className="container mx-auto text-center flex flex-col md:flex-row gap-6 md:justify-between">
-            <p className="mb-4 md:mb-0">&copy; 2024 Eventi. Tous droits réservés.</p>
-            <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+            <p className="mb-4 md:mb-0 ml-0 lg:ml-16">&copy; 2024 Eventi. Tous droits réservés.</p>
+            <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mr-0 lg:mr-16">
               <a href="#" className="hover:underline">Politique de confidentialité</a>
               <a href="#" className="hover:underline">Termes & Conditions</a>
             </div>

@@ -6,8 +6,8 @@ const TicketSection = () => {
         <div>
             <main className="container mx-auto">
                 <div className="bg-blue-100">
-                    <div className="text-center py-6">
-                        <h6 className="text-xs mt-4 text-[#FD2284]">CHOISISSEZ UN TICKET</h6>
+                    <div className="text-center p-10">
+                        <h6 className="text-sm mt-4 text-[#FD2284]">CHOISISSEZ UN TICKET</h6>
                         <h2 className="text-3xl text-black">OBTENEZ VOTRE BILLET ICI</h2>
                     </div>
 

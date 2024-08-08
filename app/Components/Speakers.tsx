@@ -15,7 +15,7 @@ function Speakers() {
                 <section className="bg-gray-900 text-white ">
                     <div className="bg-[#1D1E25] p-6">
                         <div className="text-center py-6">
-                            <h6 className="text-xs text-[#FD2284] uppercase">Intervenants de la Conférence et Événements</h6>
+                            <h6 className="text-sm text-[#FD2284] uppercase">Intervenants de la Conférence et Événements</h6>
                             <h2 className="text-3xl uppercase mt-2">Les Speakers</h2>
                             <p className="mt-2 text-xs ">
                                 Plus de 40 conférenciers inspirants, rencontrez les meilleurs <br /> spécialistes des produits du monde entier et faites la fête <br /> ensemble après l'événement !

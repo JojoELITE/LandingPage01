@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 function Schedule() {
     return (
 
         <div>
             <main className="container mx-auto">
-                <section className="bg-gray-100 p-16">
-                    <div className="flex flex-col md:flex-row gap-0 lg:gap-8">
+                <section className="bg-gray-100 p-20">
+                    <div className="flex flex-col md:flex-row gap-0 lg:gap-16">
                         <div className="md:w-1/2">
-                            <h6 className="text-xs mt-4 text-[#FD2284] uppercase">HORAIRE DE L'ÉVÉNEMENT</h6>
+                            <h6 className="text-sm mt-4 text-[#FD2284] uppercase">HORAIRE DE L'ÉVÉNEMENT</h6>
                             <h2 className="text-3xl text-black uppercase">
                                 LISTE DES <br />ÉVÉNEMENTS <br />PRÉVUS
                             </h2>
@@ -16,18 +16,18 @@ function Schedule() {
                                 Inscrivez-vous à notre série de webinaires et de sessions interactives pour en savoir plus sur les dernières technologies et innovations.
                             </p>
 
-                            <button className="mt-6 text-pink-500 py-2 px-4 border border-pink-500 rounded-full">
+                            <button className="mt-6 text-pink-500 py-2 px-4 border border-pink-500 rounded-full hover:bg-pink-500 hover:text-white">
                                 Télécharger le calendrier
                             </button>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 hidden md:block sm:block">
                                 <div className="flex gap-4 mt-8">
                                     <div>
-                                        <div className="bg-gray-200 px-16 py-16 rounded-lg w-[50%]"></div>
-                                        <div className="bg-gray-200 ml-8 mt-4 px-12 py-14 rounded-lg w-[20%]"></div>
+                                        <div className="bg-gray-200 px-20 py-16 rounded-lg w-[50%]"></div>
+                                        <div className="bg-gray-200 ml-8 mt-4 px-16 py-14 rounded-lg w-[20%]"></div>
                                     </div>
                                     <div>
-                                        <div className="bg-gray-200 mt-14 px-14 py-4 rounded-lg w-[30%]">
+                                        <div className="bg-gray-200 mt-14 px-20 py-4 rounded-lg w-[30%]">
                                             <div className="h-32"></div>
                                         </div>
                                     </div>
@@ -36,7 +36,8 @@ function Schedule() {
                         </div>
 
                         <div className="md:w-full">
-                            <div className="flex flex-wrap justify-center rounded-full gap-4 mt-4 bg-[#EFF1FD] px-4 py-2 md:gap-6 md:w-full lg:w-[60%]">
+                            <div className="flex flex justify-center rounded-full gap-4 mt-4 bg-[#EFF1FD] px-4 py-2 md:gap-6 md:w-full lg:w-[60%]">
+
                                 <div className="rounded-full px-4 py-2 bg-white text-black text-center cursor-pointer">
                                     <h4 className="text-xs">PREMIER JOUR</h4>
                                     <h4 className="text-xs font-bold">22 Mars 2024</h4>
@@ -50,8 +51,6 @@ function Schedule() {
                                     <h4 className="text-xs font-bold">24 Mars 2024</h4>
                                 </div>
                             </div>
-
-
 
 
                             <div className="flex col gap- mt-6 text-black">
@@ -115,6 +114,7 @@ function Schedule() {
                     </div>
                 </section>
             </main>
+            
         </div>
 
 
