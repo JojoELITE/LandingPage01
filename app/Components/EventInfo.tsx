@@ -4,7 +4,7 @@ function About() {
     return (
         <div>
 
-            <main className="container mx-auto bg-white p-20">
+            <main className="container mx-auto bg-white p-16">
                 <section className="flex flex-col md:flex-row gap-28">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 hidden md:block sm:block">
                         <div className="flex gap-4">
@@ -20,8 +20,8 @@ function About() {
                         </div>
                     </div>
                     <div className="col-span-2 md:col-span-1">
-                        <h6 className='text-xl mt-0 lg:mt-8 text-[#FD2284]'>A PROPOS DE LA CONFÉRENCE</h6>
-                        <h2 className="text-3xl mt-4 text-black ">BIENVENUE À LA <br />CONFÉRENCE <br />NUMÉRIQUE 2024</h2>
+                        <h6 className='text-sm mt-0 lg:mt-8 text-[#FD2284]'>A PROPOS DE LA CONFÉRENCE</h6>
+                        <h2 className="text-3xl mt-2 text-black ">BIENVENUE À LA <br />CONFÉRENCE <br />NUMÉRIQUE 2024</h2>
                         <p className="mt-4 text-[18px] text-gray-500">
                             La Digital Technology Conference vous convie à la conférence des technologies émergentes qui se tiendra du 22 au 24 mars 2024. Cette conférence vous donnera un aperçu des technologies émergentes les plus récentes et de leurs impacts sur le secteur technologique.
                         </p>

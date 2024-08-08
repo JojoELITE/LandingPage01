@@ -10,7 +10,7 @@ function Footer() {
     return (
 
         <div>
-            <main className="container mx-auto flex flex-col lg:flex-row bg-blue-50 p-6 lg:p-20 gap-6 lg:gap-10">
+            <main className="container mx-auto flex flex-col lg:flex-row bg-blue-50 p-6 lg:p-16 gap-6 lg:gap-10">
                 <section className="bg-blue-50 text-black w-full lg:w-1/2">
                     <div className="container mx-auto">
                         <h2 className="text-xl lg:text-2xl">PRÊT À COMMENCER</h2>

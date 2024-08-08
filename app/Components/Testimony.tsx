@@ -11,11 +11,11 @@ function Testimony() {
     return (
 
         <div>
-            <main className="container mx-auto flex flex-col lg:flex-row bg-white p-20 gap- lg:gap-10">
+            <main className="container mx-auto flex flex-col lg:flex-row bg-white p-16 gap- lg:gap-10">
                 <section className="w-full lg:w-1/2">
                     <div className="container mx-auto">
                         <h6 className="text-sm mt-4 text-[#FD2284]">CE QUE DISENT NOS INTERNAUTES</h6>
-                        <h2 className="text-2xl lg:text-3xl text-black ">QUE DISENT LES GENS ?</h2>
+                        <h2 className="text-2xl lg:text-3xl text-black mt-2">QUE DISENT LES GENS ?</h2>
 
                     </div>
 

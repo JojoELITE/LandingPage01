@@ -2,7 +2,7 @@
 const nextConfig = {
 
     images: {
-        domains: ['cloudflare-ipfs.com', 'avatars.githubusercontent.com'],
+        domains: ['example.com', 'cloudflare-ipfs.com', 'avatars.githubusercontent.com'],
     },
 };
 

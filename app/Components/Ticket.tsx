@@ -8,7 +8,7 @@ const TicketSection = () => {
                 <div className="bg-blue-100">
                     <div className="text-center p-10">
                         <h6 className="text-sm mt-4 text-[#FD2284]">CHOISISSEZ UN TICKET</h6>
-                        <h2 className="text-3xl text-black">OBTENEZ VOTRE BILLET ICI</h2>
+                        <h2 className="text-3xl text-black mt-2">OBTENEZ VOTRE BILLET ICI</h2>
                     </div>
 
                     <div className="flex flex-col lg:flex-row justify-center p-6 lg:p-16 gap-6">

@@ -9,7 +9,7 @@ import { MapPin } from 'lucide-react';
 
 function Hero() {
   return (
-    <main className="container mx-auto bg-[#291D5D] p-20">
+    <main className="container mx-auto bg-[#291D5D] p-16">
       <section className="flex flex-col md:flex-row items-center justify-between py-8">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <div className='flex gap-2 items-center'>

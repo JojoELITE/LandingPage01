@@ -5,7 +5,7 @@ function Schedule() {
 
         <div>
             <main className="container mx-auto">
-                <section className="bg-gray-100 p-20">
+                <section className="bg-gray-100 p-16">
                     <div className="flex flex-col md:flex-row gap-0 lg:gap-16">
                         <div className="md:w-1/2">
                             <h6 className="text-sm mt-4 text-[#FD2284] uppercase">HORAIRE DE L'ÉVÉNEMENT</h6>

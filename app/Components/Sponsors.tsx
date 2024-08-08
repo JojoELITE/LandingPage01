@@ -9,7 +9,7 @@ export default function Sponsors() {
                 <div className="container mx-auto">
                     <div className=' text-center '>
                         <h6 className='text-sm text-[#FD2284]'>NOS SPONSORS</h6>
-                        <h2 className="text-3xl  text-black">PLUS DE 100 SPONSORS D'UNE GRANDE ENTREPRISE</h2>
+                        <h2 className="text-3xl  text-black mt-2">PLUS DE 100 SPONSORS D'UNE GRANDE ENTREPRISE</h2>
 
                     </div>
 
