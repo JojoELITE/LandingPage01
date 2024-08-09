@@ -14,9 +14,9 @@ function About() {
                     </div>
 
                     <div className="col-span-2 md:col-span-1">
-                        <h6 className='text-sm mt-0 lg:mt-8 text-[#FD2284]'>A PROPOS DE LA CONFÉRENCE</h6>
-                        <h2 className="text-3xl mt-2 text-black ">BIENVENUE À LA <br />CONFÉRENCE <br />NUMÉRIQUE 2024</h2>
-                        <p className="mt-4 text-[18px] text-gray-500">
+                        <h6 className='text-sm mt-2 lg:mt-8 text-[#FD2284]'>A PROPOS DE LA CONFÉRENCE</h6>
+                        <h2 className="text-xl lg:text-3xl mt-2 text-black ">BIENVENUE À LA <br />CONFÉRENCE <br />NUMÉRIQUE 2024</h2>
+                        <p className="mt-4 text-sm lg:text-xl text-gray-500">
                             La Digital Technology Conference vous convie à la conférence des technologies émergentes qui se tiendra du 22 au 24 mars 2024. Cette conférence vous donnera un aperçu des technologies émergentes les plus récentes et de leurs impacts sur le secteur technologique.
                         </p>
                         <button className="mt-6 text-pink-500 py-2 px-4 border border-pink-500 rounded-full hover:bg-pink-500 hover:text-white">

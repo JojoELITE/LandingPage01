@@ -13,11 +13,11 @@ function Footer() {
             <main className="container mx-auto flex flex-col lg:flex-row bg-blue-50 p-6 lg:p-16 gap-6 lg:gap-10">
                 <section className="bg-blue-50 text-black w-full lg:w-1/2">
                     <div className="container mx-auto">
-                        <h2 className="text-xl lg:text-2xl">PRÊT À COMMENCER</h2>
-                        <p className="text-black text-[18px]">
-                            Si vous souhaitez poser des questions, nous
+                        <h2 className="text-xl lg:text-3xl">PRÊT À COMMENCER</h2>
+                        <p className="text-black  text-sm lg:text-xl">
+                            Si vous souhaitez poser des questions, 
                             <br />
-                            répondrons à toutes vos questions
+                            nous répondrons à toutes vos questions
                         </p>
                     </div>
 
@@ -53,21 +53,21 @@ function Footer() {
                     </p>
 
                     <div className="flex items-center justify-between py-2 lg:py-4 gap-6 lg:gap-24">
-                        <p className="text-[14px] lg:text-[18px]">Qu'est-ce qu'Eventi</p>
+                        <p className="text-sm lg:text-xl">Qu'est-ce qu'Eventi</p>
                         <Link href="#">
                             <ChevronRight size={14} />
                         </Link>
                     </div>
 
                     <div className="flex items-center justify-between gap-6 lg:gap-24">
-                        <p className="text-[14px] lg:text-[18px]">Comment s'inscrire à Eventi ?</p>
+                        <p className="text-sm lg:text-xl">Comment s'inscrire à Eventi ?</p>
                         <Link href="#">
                             <ChevronRight size={14} />
                         </Link>
                     </div>
 
                     <div className="flex items-center justify-between py-2 lg:py-4 gap-6 lg:gap-24">
-                        <p className="text-[14px] lg:text-[18px]">Comment acheter des billets à Eventi ?</p>
+                        <p className="text-sm lg:text-xl">Comment acheter des billets à Eventi ?</p>
                         <Link href="#">
                             <ChevronRight size={14} />
                         </Link>

@@ -13,7 +13,7 @@ const users = [
     {
         fullName: "John Doe",
         job: "Software Engineer",
-        image: "/assets/nous.jpeg",
+        image: "/assets/josue.jpeg",
         link: "#",
         link1: "##",
         link2: "###",
@@ -68,8 +68,8 @@ function Speakers() {
                     <div className="bg-[#1D1E25] p-6">
                         <div className="text-center py-6">
                             <h6 className="text-sm text-[#FD2284] uppercase">Intervenants de la Conférence et Événements</h6>
-                            <h2 className="text-3xl uppercase mt-2">Les Speakers</h2>
-                            <p className="mt-2 text-xs ">
+                            <h2 className="text-xl lg:text-3xl uppercase mt-2">Les Speakers</h2>
+                            <p className="mt-2 text-sm lg:text-xl ">
                                 Plus de 40 conférenciers inspirants, rencontrez les meilleurs <br /> spécialistes des produits du monde entier et faites la fête <br /> ensemble après l'événement !
                             </p>
                         </div>
@@ -82,42 +82,42 @@ function Speakers() {
                                 <div className="flex flex-wrap  gap-8 justify-center mt-8">
                                     {users.map((user) => (
                                         <div className="flex flex-col text-center">
-                                            <div className="mb-4 ml-6">
+                                            <div className="mb-4">
                                                 <Image
-                                                    className="w-24 h-24 rounded-full absolute "
+                                                    className=" h-32 w-32 rounded-full absolute "
                                                     src={user.image}
                                                     alt="Logo"
-                                                    width={100}
+                                                    width={100} 
                                                     height={100}
                                                 />
                                             </div>
-                                            <div className="flex items-center bg-gray-400 rounded-full px-2 py-1 gap-2 mb-4 relative mt-20 ">
+                                            <div className="flex items-center bg-white rounded-full px-2 py-1 gap-2 relative mt-32 ml-1">
                                                 <a className='flex gap-2' href={user.link} target="_blank" rel="noopener noreferrer">
-                                                    <Facebook size={16} />
+                                                    <Facebook size={14} color='gray' />
                                                   
                                                 </a>
 
 
                                                 <a className='' href={user.link1} target="_blank" rel="noopener noreferrer">
-                                                    <Instagram size={16} />
+                                                    <Instagram size={14} color='gray' />
                                                  
                                                 </a>
 
                                                 <a className='' href={user.link2} target="_blank" rel="noopener noreferrer">
                                                   
-                                                    <Twitter size={16} />
+                                                    <Twitter size={14} color='gray' />
                                                    
                                                 </a>
 
                                                 <a className='' href={user.link3} target="_blank" rel="noopener noreferrer">
                                                  
-                                                    <Linkedin size={16} />
+                                                    <Linkedin size={14} color='gray'/>
                                                 </a>
 
 
                                                 <a className='' href={user.link4} target="_blank" rel="noopener noreferrer">
                             
-                                                    <ExternalLink size={16} />
+                                                    <ExternalLink size={14} color='gray'  />
                                                 </a>
                                             </div>
 

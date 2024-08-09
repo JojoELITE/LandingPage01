@@ -20,7 +20,7 @@ function Hero() {
           <h1 className="text-xl lg:text-4xl font-bold text-white ">
             LA CONFÉRENCE <br />POUR LES STARTUPS GABONAISE
           </h1>
-          <p className="text-white text-sm lg:text-lg mt-4">
+          <p className="text-white text-sm lg:text-xl mt-4">
             La Conférence sur les technologies émergentes 2024 aborde la tendance et
             les meilleures techniques de nouvelle génération. Sauvez votre invitation pour
             apprendre l'avenir imminent et actuel.
@@ -43,9 +43,9 @@ function Hero() {
         </div>
 
         <div className="md:w-1/3 bg-[#FEDE00] rounded-lg p-8 text-center">
-          <p className=" text-black text-xl">Evénement à venir 2024</p>
-          <h6 className=" text-black text-xl font-bold">Digital Technologies</h6>
-          <div className="border-b-2 border-white my-3 mx-3 w-[80%] ml-8"></div>
+          <p className=" text-black text-sm lg:text-xl">Evénement à venir 2024</p>
+          <h6 className=" text-black text-sm lg:text-xl font-bold">Digital Technologies</h6>
+          <div className="border-b-2 border-white  my-2 lg:my-3 w-[70%] ml-6 lg:ml-12"></div>
           <div className="text-center">
             <div className="flex items-center gap-2 justify-center">
               <MapPin color="black" size={20} />

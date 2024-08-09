@@ -9,10 +9,10 @@ function Schedule() {
                     <div className="flex flex-col md:flex-row gap-0 lg:gap-16">
                         <div className="md:w-1/2">
                             <h6 className="text-sm mt-4 text-[#FD2284] uppercase">HORAIRE DE L'ÉVÉNEMENT</h6>
-                            <h2 className="text-3xl text-black uppercase">
+                            <h2 className="text-xl lg:text-3xl text-black uppercase">
                                 LISTE DES <br />ÉVÉNEMENTS <br />PRÉVUS
                             </h2>
-                            <p className="mt-2 text-gray-500 text-base md:text-lg">
+                            <p className="mt-2 text-gray-500 text-sm lg:text-xl">
                                 Inscrivez-vous à notre série de webinaires et de sessions interactives pour en savoir plus sur les dernières technologies et innovations.
                             </p>
 
@@ -36,7 +36,7 @@ function Schedule() {
                         </div>
 
                         <div className="md:w-full mt-10 lg:mt-0">
-                            <div className="flex flex justify-center rounded-full gap-4 mt-4 bg-[#EFF1FD] px-4 py-2 md:gap-6 md:w-full lg:w-[60%]">
+                            <div className="flex flex justify-center rounded-full gap-4 mt-4 bg-[#EFF1FD] px-4 py-2 md:gap-6 w-full lg:w-[65%]">
 
                                 <div className="rounded-full px-4 py-2 bg-white text-black text-center cursor-pointer">
                                     <h4 className="text-xs">PREMIER JOUR</h4>
@@ -78,7 +78,7 @@ function Schedule() {
                                 <div className="flex flex-col justify-between gap-5 lg:gap-0  px-4 md:px-10 text-black">
                                     <div className=" mt-5 mt:mt-0 md:mb-0">
                                         <p className="font-bold">Inscription</p>
-                                        <p className="text-[14px] md:text-[16px] text-gray-700">
+                                        <p className="text-[14px] lg:text-[16px] text-gray-700">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sunt placeat sit amet consectetur adipisicing elit.
                                         </p>
                                     </div>

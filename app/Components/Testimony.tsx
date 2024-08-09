@@ -15,7 +15,7 @@ function Testimony() {
                 <section className="w-full lg:w-1/2">
                     <div className="container mx-auto">
                         <h6 className="text-sm mt-4 text-[#FD2284]">CE QUE DISENT NOS INTERNAUTES</h6>
-                        <h2 className="text-2xl lg:text-3xl text-black mt-2">QUE DISENT LES GENS ?</h2>
+                        <h2 className="text-xl lg:text-3xl text-black mt-2">QUE DISENT LES GENS ?</h2>
 
                     </div>
 

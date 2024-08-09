@@ -30,7 +30,7 @@ export default function RootLayout({
 
 
         <footer className="bg-white text-black p-16">
-          <div className="container mx-auto text-center flex flex-col md:flex-row gap-6 md:justify-between">
+          <div className="container mx-auto text-center flex flex-col md:flex-row gap-3 md:justify-between">
             <p className="mb-4 md:mb-0 ml-0 lg:ml-16">&copy; 2024 Eventi. Tous droits réservés.</p>
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mr-0 lg:mr-16">
               <a href="#" className="hover:underline">Politique de confidentialité</a>
