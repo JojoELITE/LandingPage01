@@ -35,7 +35,7 @@ function Schedule() {
                             </div>
                         </div>
 
-                        <div className="md:w-full">
+                        <div className="md:w-full mt-10 lg:mt-0">
                             <div className="flex flex justify-center rounded-full gap-4 mt-4 bg-[#EFF1FD] px-4 py-2 md:gap-6 md:w-full lg:w-[60%]">
 
                                 <div className="rounded-full px-4 py-2 bg-white text-black text-center cursor-pointer">

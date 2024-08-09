@@ -9,7 +9,7 @@ import { MapPin } from 'lucide-react';
 
 function Hero() {
   return (
-    <main className="container mx-auto bg-[#291D5D] px-16 py-1">
+    <main className="container mx-auto bg-[#291D5D] px-16 py-3">
       <section className="flex flex-col md:flex-row items-center justify-between py-8">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <div className='flex gap-2 items-center'>
@@ -20,7 +20,7 @@ function Hero() {
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-tight">
             LA CONFÉRENCE <br />POUR LES STARTUPS <br />GABONAISE
           </h1>
-          <p className="text-white text-base md:text-lg mt-4">
+          <p className="text-white text-sm lg:text-lg mt-4">
             La Conférence sur les technologies émergentes 2024 aborde la tendance et
             les meilleures techniques de nouvelle génération. Sauvez votre invitation pour
             apprendre l'avenir imminent et actuel.
