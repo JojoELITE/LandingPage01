@@ -17,7 +17,7 @@ function Hero() {
             </div>
             <h5 className='font-bold text-2xl text-white'>2024</h5>
           </div>
-          <h1 className="text-3xl lg:text-5xl font-bold text-white leading-tight">
+          <h1 className="text-2xl lg:text-5xl font-bold text-white leading-tight">
             LA CONFÉRENCE <br />POUR LES STARTUPS <br />GABONAISE
           </h1>
           <p className="text-white text-sm lg:text-lg mt-4">
