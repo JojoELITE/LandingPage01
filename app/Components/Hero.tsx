@@ -9,13 +9,13 @@ import { MapPin } from 'lucide-react';
 
 function Hero() {
   return (
-    <main className="container mx-auto bg-[#291D5D] px-16 py-3">
+    <main className="container mx-auto bg-[#291D5D] px-16 py-1">
       <section className="flex flex-col md:flex-row items-center justify-between py-8">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <div className='flex gap-2 items-center'>
             <div className="border-b-2 border-[#FEAE37] w-10 my-2">
             </div>
-            <h5 className='font-bold text-2xl'>2024</h5>
+            <h5 className='font-bold text-2xl text-white'>2024</h5>
           </div>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-tight">
             LA CONFÉRENCE <br />POUR LES STARTUPS <br />GABONAISE
@@ -29,13 +29,14 @@ function Hero() {
 
           <Link href="https://youtube.com/" className="flex items-center gap-2">
             <div className="w-5 h-5 mt-8 border border-[#B82078] rounded-full flex items-center justify-center">
+              
               <div className="w-3 h-3 bg-white rounded-full ">
                 <Play className='mt-0.5 ml-0.5' color="black" size={8} />
               </div>
 
             </div>
 
-            <div className='mt-8 text-[18px] '>
+            <div className='mt-8 text-[18px] text-white'>
               Regarder le teaser
             </div>
           </Link>

@@ -5,20 +5,14 @@ function About() {
         <div>
 
             <main className="container mx-auto bg-white p-16">
-                <section className="flex flex-col md:flex-row gap-28">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 hidden md:block sm:block">
-                        <div className="flex gap-4">
-                            <div>
-                                <div className="bg-gray-200 px-24 py-28 rounded-lg w-[50%]"></div>
-                                <div className="bg-gray-200 ml-8 mt-4 px-20 py-16 rounded-lg w-[20%]"></div>
-                            </div>
-                            <div>
-                                <div className="bg-gray-200 mt-8 px-24 py-20 rounded-lg w-[30%]">
-                                    <div className="h-32"></div>
-                                </div>
-                            </div>
-                        </div>
+                <section className="flex flex-col md:flex-row  lg:gap-16">
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:block sm:block">
+                        <video  className='h-[90%]' width="" height="" controls>
+                            <source src="/videos/event.mp4" type="video/mp4" />
+                        </video>
                     </div>
+
                     <div className="col-span-2 md:col-span-1">
                         <h6 className='text-sm mt-0 lg:mt-8 text-[#FD2284]'>A PROPOS DE LA CONFÉRENCE</h6>
                         <h2 className="text-3xl mt-2 text-black ">BIENVENUE À LA <br />CONFÉRENCE <br />NUMÉRIQUE 2024</h2>
@@ -31,7 +25,7 @@ function About() {
                     </div>
                 </section>
 
-                <section className=" py-20">
+                <section className=" py-10">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8 ">
                         <div className="bg-pink-500 text-white py-10 rounded-lg px-8 ">10,000 <br />Conférence <br />Billets confirmés</div>
                         <div className="bg-orange-500 text-white py-10 rounded-lg px-8">8+ <br />Partenaires propulsés <br />haut-parleurs</div>
