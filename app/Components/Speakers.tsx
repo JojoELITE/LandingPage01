@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image';
-import Link from 'next/link';
 
 
 import { Facebook } from 'lucide-react';
@@ -14,25 +13,45 @@ const users = [
     {
         fullName: "John Doe",
         job: "Software Engineer",
-        image: "/assets/nous.jpeg"
+        image: "/assets/nous.jpeg",
+        link: "#",
+        link1: "##",
+        link2: "###",
+        link3: "####",
+        link4: "######",
 
     },
     {
         fullName: "Jane Smith",
         job: "Product Manager",
-        image: "/assets/daina.jpeg"
+        image: "/assets/daina.jpeg",
+        link: "#",
+        link1: "##",
+        link2: "###",
+        link3: "####",
+        link4: "######",
 
     },
     {
         fullName: "Emily Johnson",
         job: "UX Designer",
-        image: "/assets/josue.jpeg"
+        image: "/assets/josue.jpeg",
+        link: "#",
+        link1: "##",
+        link2: "###",
+        link3: "####",
+        link4: "######",
 
     },
     {
         fullName: "Jean Pierre",
         job: "Chanteuse",
-        image: "/assets/daina.jpeg"
+        image: "/assets/daina.jpeg",
+        link: "#",
+        link1: "##",
+        link2: "###",
+        link3: "####",
+        link4: "######",
     },
 ];
 
@@ -73,28 +92,35 @@ function Speakers() {
                                                 />
                                             </div>
                                             <div className="flex items-center bg-gray-400 rounded-full px-2 py-1 gap-2 mb-4 relative mt-20 ">
+                                                <a className='flex gap-2' href={user.link} target="_blank" rel="noopener noreferrer">
+                                                    <Facebook size={16} />
+                                                  
+                                                </a>
 
-                                                <Link href="https://www.youtube.com/watch?v=wlSJcbWwzds">
-                                                    <Facebook size={18} />
-                                                </Link>
 
-                                                <Link href="https://www.youtube.com/watch?v=wlSJcbWwzds">
-                                                    <Instagram size={18} />
-                                                </Link>
+                                                <a className='' href={user.link1} target="_blank" rel="noopener noreferrer">
+                                                    <Instagram size={16} />
+                                                 
+                                                </a>
 
-                                                <Link href="https://www.youtube.com/watch?v=wlSJcbWwzds">
-                                                    <Twitter size={18} />
-                                                </Link>
+                                                <a className='' href={user.link2} target="_blank" rel="noopener noreferrer">
+                                                  
+                                                    <Twitter size={16} />
+                                                   
+                                                </a>
 
-                                                <Link href="https://www.youtube.com/watch?v=wlSJcbWwzds">
-                                                    <Linkedin size={18} />
-                                                </Link>
+                                                <a className='' href={user.link3} target="_blank" rel="noopener noreferrer">
+                                                 
+                                                    <Linkedin size={16} />
+                                                </a>
 
-                                                <Link href="#">
-                                                    <ExternalLink size={18} />
-                                                </Link>
 
+                                                <a className='' href={user.link4} target="_blank" rel="noopener noreferrer">
+                            
+                                                    <ExternalLink size={16} />
+                                                </a>
                                             </div>
+
                                             <div className=''>
                                                 <p className="font-semibold">{user.fullName}</p>
                                                 <p className="text-[12px]">{user.job}</p>
@@ -105,53 +131,7 @@ function Speakers() {
 
                             </div>
 
-
-                            <div className="flex flex-wrap gap-20 justify-center mt-8">
-
-                                <div className="flex flex-wrap  gap-8 justify-center mt-8">
-                                    {users.map((user) => (
-                                        <div className="flex flex-col text-center">
-                                            <div className="mb-4 ml-6">
-                                                <Image
-                                                    className="w-24 h-24 rounded-full absolute "
-                                                    src={user.image}
-                                                    alt="Logo"
-                                                    width={100}
-                                                    height={100}
-                                                />
-                                            </div>
-                                            <div className="flex items-center bg-gray-400 rounded-full px-2 py-1 gap-2 mb-4 relative mt-20 ">
-
-                                                <Link href="https://www.youtube.com/watch?v=wlSJcbWwzds">
-                                                    <Facebook size={18} />
-                                                </Link>
-
-                                                <Link href="https://www.youtube.com/watch?v=wlSJcbWwzds">
-                                                    <Instagram size={18} />
-                                                </Link>
-
-                                                <Link href="https://www.youtube.com/watch?v=wlSJcbWwzds">
-                                                    <Twitter size={18} />
-                                                </Link>
-
-                                                <Link href="https://www.youtube.com/watch?v=wlSJcbWwzds">
-                                                    <Linkedin size={18} />
-                                                </Link>
-
-                                                <Link href="#">
-                                                    <ExternalLink size={18} />
-                                                </Link>
-
-                                            </div>
-                                            <div className=''>
-                                                <p className="font-semibold">{user.fullName}</p>
-                                                <p className="text-[12px]">{user.job}</p>
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-
-                            </div>
+                         
 
                         </div>
 

@@ -2,6 +2,47 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
+
+
+const sponsors0 = [
+    {
+        name: "Video Hive",
+        image: "/logo/vide.png",
+        link: "https://videohive.net/",
+
+
+    },
+
+    {
+        name: "Code Canyon",
+        image: "/logo/code.png",
+        link: "https://codecanyon.net/",
+
+    },
+
+
+    {
+        name: "Graphic River",
+        image: "/logo/graph.png",
+        link: "https://graphicriver.net/",
+
+    },
+
+
+    {
+        name: "Photo Dune",
+        image: "/logo/photo.png",
+        link: "https://photodune.net/",
+
+
+    },
+];
+
+
+
+
+
+
 export default function Sponsors() {
     return (
         <div>
@@ -13,42 +54,44 @@ export default function Sponsors() {
 
                     </div>
 
-                    <div className="mt-8 md:p-6">
-                        <div className="flex flex-wrap justify-center gap-8 mb-4">
-                            <Link href="#" className="flex-shrink-0">
-                                <Image className='w-32' src="/logo/vide.png" alt="Logo" width={100} height={100} />
-                            </Link>
 
-                            <Link href="#" className="">
-                                <Image className='w-36' src="/logo/code.png" alt="Logo" width={100} height={100} />
-                            </Link>
+                    <div>
 
-                            <Link href="#" className="">
-                                <Image className='w-36' src="/logo/graph.png" alt="Logo" width={100} height={100} />
-                            </Link>
+                        <div className="flex flex-wrap gap-20 justify-center py-12 ">
 
-                            <Link href="#" className="">
-                                <Image className='w-44' src="/logo/photo.png" alt="Logo" width={100} height={100} />
-                            </Link>
+                            <div className="flex flex-wrap  gap-8 justify-center">
+                                {sponsors0.map((entreprise) => (
+                                    <div className="flex flex-col text-center">
 
-                            <Link href="#" className="">
-                                <Image className='w-32' src="/logo/vide.png" alt="Logo" width={100} height={100} />
-                            </Link>
+
+                                        <div className=''>
+                                            <p className="font-semibold text-xl mt-2">{entreprise.name}</p>
+                                        </div>
+
+                                        <div className="flex items-center gap-2   ">
+
+                                            <a className='flex gap-2' href={entreprise.link} target="_blank" rel="noopener noreferrer">
+                                                <Image
+                                                    className="w-28 h-10  "
+                                                    src={entreprise.image}
+                                                    alt="Logo"
+                                                    width={100}
+                                                    height={100}
+                                                />
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                ))}
+                            </div>
+
+
+
+
                         </div>
 
-                        <div className="flex flex-wrap justify-center gap-8">
-                            <Link href="#" className="">
-                                <Image className='w-32' src="/logo/vide.png" alt="Logo" width={100} height={100} />
-                            </Link>
-
-                            <Link href="#" className="">
-                            <Image className='w-36' src="/logo/code.png" alt="Logo" width={100} height={100} />
-                            </Link>
-
-                            <Link href="#" className="">
-                                <Image className='w-36' src="/logo/graph.png" alt="Logo" width={100} height={100} />
-                            </Link>
-                        </div>
                     </div>
                 </div>
             </section>
