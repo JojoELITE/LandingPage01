@@ -69,7 +69,7 @@ function Speakers() {
                         <div className="text-center py-6">
                             <h6 className="text-sm text-[#FD2284] uppercase">Intervenants de la Conférence et Événements</h6>
                             <h2 className="text-xl lg:text-3xl uppercase mt-2">Les Speakers</h2>
-                            <p className="mt-2 text-sm lg:text-xl ">
+                            <p className="mt-2 text-xs lg:text-xl ">
                                 Plus de 40 conférenciers inspirants, rencontrez les meilleurs <br /> spécialistes des produits du monde entier et faites la fête <br /> ensemble après l'événement !
                             </p>
                         </div>
