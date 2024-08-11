@@ -13,8 +13,8 @@ function About() {
     return (
         <div>
 
-            <main className="container mx-auto  px-16 py-0 lg:py-20">
-                <section className="flex flex-col md:flex-row  gap-0 lg:gap-10">
+            <main className="container mx-auto ">
+                <section className="flex flex-col md:flex-row ">
 
                     <div>
                         <img
@@ -24,7 +24,7 @@ function About() {
                         />
                     </div>
 
-                    <div className="col-span-2 md:col-span-1 py-4 lg:py-20">
+                    <div className="col-span-2 md:col-span-1 py-4 lg:py-20 px-16 lg:px-0">
                         <h6 className='text-sm text-[#FD2284]'>A PROPOS DE LA CONFÉRENCE</h6>
                         <h2 className="text-xl lg:text-3xl mt-2 text-black ">BIENVENUE À LA <br />CONFÉRENCE <br />NUMÉRIQUE 2024</h2>
                         <p className="mt-4 text-sm lg:text-xl text-gray-500">

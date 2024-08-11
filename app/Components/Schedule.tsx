@@ -109,7 +109,7 @@ const Schedule = () => {
 
             <div className='md:col lg:flex '>
                 <div className="md:w-1/2 px-16 py-6 lg:py-0">
-                    <h6 className="text-sm mt-4 text-[#FD2284] uppercase">HORAIRE DE L'ÉVÉNEMENT</h6>
+                    <h6 className="text-sm mt-4 lg:mt-28 text-[#FD2284] uppercase">HORAIRE DE L'ÉVÉNEMENT</h6>
                     <h2 className="text-xl lg:text-3xl text-black uppercase">
                         LISTE DES <br />ÉVÉNEMENTS <br />PRÉVUS
                     </h2>
@@ -136,7 +136,7 @@ const Schedule = () => {
                     </div>
                 </div>
 
-                <div className="container mx-auto mt-10 lg:mt-0 ">
+                <div className="container mx-auto mt-10 lg:mt-20 ">
                     <div className="text-center ">
                         <div className="flex justify-center gap-1 lg:gap-5">
                             <button
