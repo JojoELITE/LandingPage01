@@ -5,7 +5,6 @@ import EventInfo from "./Components/EventInfo";
 import Schedule from './Components/Schedule';
 import Speakers from './Components/Speakers';
 import Contact from './Components/Contact';
-import Sponsors from './Components/Sponsors';
 import Testimony from './Components/Testimony';
 import Ticket from './Components/Ticket';
 
@@ -27,7 +26,6 @@ export default function Home() {
 
         <Ticket />
 
-        <Sponsors />
 
         <Testimony />
 

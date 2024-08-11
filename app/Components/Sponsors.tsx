@@ -41,8 +41,8 @@ const sponsors0 = [
 export default function Sponsors() {
     return (
         <div>
-            <section className="container mx-auto bg-cover text-black p-6 lg:p-12"
-                style={{ backgroundImage: "url('/assets/Overlay.png')" }}>
+            <section className="container mx-auto bg-cover text-black p-6 lg:p-16"
+                >
 
 
                 <div className=' text-center '>
