@@ -4,26 +4,6 @@ import VoirPlusUsers from './VoirPlusUsers';
 
 const users = [
     {
-        fullName: "John",
-        job: "Software Engineer",
-        image: "/assets/spek3.jpg", // Assurez-vous que cette image existe
-        link: "#",
-        link1: "##",
-        link2: "###",
-        link3: "####",
-        link4: "######",
-    },
-    {
-        fullName: "Jane",
-        job: "Product Manager",
-        image: "/assets/spek4.jpg", // Assurez-vous que cette image existe
-        link: "#",
-        link1: "##",
-        link2: "###",
-        link3: "####",
-        link4: "######",
-    },
-    {
         fullName: "Emily",
         job: "UX Designer",
         image: "/assets/spek3.jpg", // Assurez-vous que cette image existe
@@ -97,7 +77,7 @@ function Speakers() {
                             </p>
                         </div>
 
-                        <VoirPlusUsers users={users} initialCount={3} />
+                        <VoirPlusUsers users={users} initialCount={2} />
 
                     </div>
                 </section>

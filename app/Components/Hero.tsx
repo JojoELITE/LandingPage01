@@ -25,7 +25,7 @@ function Hero() {
   };
 
   return (
-    <main className="relative container mx-auto px-16 py- lg:py-52">
+    <main className="relative container mx-auto px-16 py-2 lg:py-52">
       <section className=" flex flex-col md:flex-row items-center justify-between bg-cover bg-no-repeat">
 
         <div className="absolute inset-0 h-full w-full z-[-1] overflow-hidden">
@@ -43,7 +43,7 @@ function Hero() {
           </Slider>
         </div>
 
-        <div className="relative z-10 md:w-1/2 mb-8 md:mb-0">
+        <div className="relative z-10 md:w-1/2">
           <div className='flex gap-2 items-center'>
             <div className="border-b-2 border-[#FEAE37] w-10 my-2"></div>
             <h5 className='font-bold text-2xl text-white'>2024</h5>

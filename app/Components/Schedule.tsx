@@ -108,7 +108,7 @@ const Schedule = () => {
         <section id='schedule' className="">
 
             <div className='md:col lg:flex '>
-                <div className="md:w-1/2">
+                <div className="md:w-1/2 px-16 py-6 lg:py-0">
                     <h6 className="text-sm mt-4 text-[#FD2284] uppercase">HORAIRE DE L'ÉVÉNEMENT</h6>
                     <h2 className="text-xl lg:text-3xl text-black uppercase">
                         LISTE DES <br />ÉVÉNEMENTS <br />PRÉVUS
@@ -136,9 +136,9 @@ const Schedule = () => {
                     </div>
                 </div>
 
-                <div className="container mx-auto mt-10 lg:mt-0">
+                <div className="container mx-auto mt-10 lg:mt-0 ">
                     <div className="text-center ">
-                        <div className="flex gap-1 lg:gap-5">
+                        <div className="flex justify-center gap-1 lg:gap-5">
                             <button
                                 onClick={() => handleDayChange('day1')}
                                 className={`px-3 py-2 rounded-full ${selectedDay === 'day1' ? 'bg-pink-500 text-white' : 'bg-gray-200 text-gray-700'
@@ -211,7 +211,7 @@ const Schedule = () => {
                                         {String(index + 2).padStart(2, '0')}
                                     </div>
 
-                                    <div className="w-full py-10">
+                                    <div className="w-full py-10 px-10 ">
                                         <div className="flex justify-between items-center">
                                             <div>
                                                 <span className="block text-gray-700">{event.time}</span>
