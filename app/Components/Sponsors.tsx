@@ -38,10 +38,6 @@ const sponsors0 = [
 ];
 
 
-
-
-
-
 export default function Sponsors() {
     return (
         <div>

@@ -28,7 +28,7 @@ function Hero() {
     <main className="relative container mx-auto px-16 py-20 lg:py-52">
       <section className=" flex flex-col md:flex-row items-center justify-between bg-cover bg-no-repeat">
 
-      <div className="absolute inset-0 h-full w-full z-[-1] overflow-hidden">
+        <div className="absolute inset-0 h-full w-full z-[-1] overflow-hidden">
           <Slider {...settings}>
             {images.map((image, index) => (
               <div key={index} className="h-full relative">

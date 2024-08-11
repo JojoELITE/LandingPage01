@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-
 import { ChevronRight } from 'lucide-react';
 import { Facebook } from 'lucide-react';
 import { Instagram } from 'lucide-react';
@@ -110,8 +109,7 @@ function Footer() {
 
             <button
                 onClick={scrollToTop}
-                className="fixed bottom-4 right-4 p-6 bg-pink-500 text-white rounded-full shadow-lg hover:bg-pink-600 focus:outline-none"
-            >
+                className="fixed bottom-4 right-4 p-6 bg-pink-500 text-white rounded-full shadow-lg hover:bg-pink-600 focus:outline-none">
                 ↑
             </button>
         </div>

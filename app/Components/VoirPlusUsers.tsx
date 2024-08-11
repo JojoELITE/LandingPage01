@@ -32,13 +32,13 @@ const ExpandableUsers: React.FC<ExpandableUsersProps> = ({ users = [], initialCo
                 {displayedUsers.map((user, index) => (
                     <div key={index} className="flex flex-col items-center text-center transform transition duration-300 hover:scale-105 cursor-pointer ml-0 lg:ml-10">
                         <img
-                            src={user.image} 
+                            src={user.image}
                             alt={user.fullName}
                             className="h-32 w-32 rounded-full object-cover"
                         />
 
 
-                        
+
                         <div className="mt-4">
                             <p className="font-semibold">{user.fullName}</p>
                             <p className="text-sm">{user.job}</p>
@@ -68,9 +68,6 @@ const ExpandableUsers: React.FC<ExpandableUsersProps> = ({ users = [], initialCo
                     </div>
                 ))}
             </div>
-
-
-
 
             {users.length > initialCount && (
                 <div className='flex justify-center mt-10'>

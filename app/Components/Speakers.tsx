@@ -66,9 +66,6 @@ const users = [
 ];
 
 
-
-
-
 function Speakers() {
     return (
 

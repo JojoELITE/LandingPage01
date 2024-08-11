@@ -97,17 +97,12 @@ const eventsByDay2 = {
 };
 
 
-
-
-
 const Schedule = () => {
     const [selectedDay, setSelectedDay] = useState<'day1' | 'day2' | 'day3'>('day1');
 
     const handleDayChange = (day: 'day1' | 'day2' | 'day3') => {
         setSelectedDay(day);
     };
-
-
 
     return (
         <section id='schedule' className="">

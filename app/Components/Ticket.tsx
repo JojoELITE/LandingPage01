@@ -19,7 +19,7 @@ const TicketSection = () => {
                             <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
                                 <span className="text-3xl sm:text-4xl font-bold text-white">5.000FCFA</span> / Mois
                             </p>
-                        
+
 
 
                             <p className="text-[16px] text-white ">
@@ -39,7 +39,7 @@ const TicketSection = () => {
                             <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
                                 <span className="text-3xl sm:text-4xl font-bold text-white">15.000FCFA</span> / Mois
                             </p>
-                        
+
 
                             <p className="text-[16px] text-white ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam esse excepturi, magni, repellendus?
@@ -63,7 +63,7 @@ const TicketSection = () => {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam esse excepturi, magni, repellendus?
                             </p>
 
-                        
+
 
                             <a target="_blank" rel="noopener noreferrer"
                                 className="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 mt-10 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
