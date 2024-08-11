@@ -90,8 +90,8 @@ function Speakers() {
                         </ul>
                     </div>
                     <div className=" ">
-                        <div className="text-center p-20">
-                            <h2 className="text-xl lg:text-3xl uppercase mt-2">Les Speakers</h2>
+                        <div className="text-center ">
+                            <h2 className="text-xl lg:text-3xl uppercase mt-20">Les Speakers</h2>
                             <p className="mt-2 text-xs lg:text-xl ">
                                 Plus de 40 conférenciers inspirants, rencontrez les meilleurs <br /> spécialistes des produits du monde entier et faites la fête <br /> ensemble après l'événement !
                             </p>

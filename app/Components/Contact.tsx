@@ -109,9 +109,10 @@ function Footer() {
 
             <button
                 onClick={scrollToTop}
-                className="fixed bottom-4 right-4 p-6 bg-pink-500 text-white rounded-full shadow-lg hover:bg-pink-600 focus:outline-none">
+                className="hidden lg:fixed lg:bottom-4 lg:right-4 p-6 bg-pink-500 text-white rounded-full shadow-lg hover:bg-pink-600 focus:outline-none">
                 ↑
             </button>
+
         </div>
 
 
