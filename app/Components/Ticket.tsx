@@ -3,72 +3,72 @@ import React from 'react';
 const TicketSection = () => {
     return (
 
-        <div>
+        <div id='tickets'>
             <main className="container mx-auto">
-                <div className="bg-blue-100">
-                    <div className="text-center p-10">
-                        <h6 className="text-sm mt-4 text-[#FD2284]">CHOISISSEZ UN TICKET</h6>
-                        <h2 className="text-xl lg:text-3xl text-black mt-2">OBTENEZ VOTRE BILLET ICI</h2>
+
+                <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 p-32 lg:p-">
+
+                    <div className="text-center ">
+                        <h6 className="text-xl lg:text-3xl text-pink-500 uppercase">Choisissez vos billets</h6>
                     </div>
 
-                    <div className="flex flex-col lg:flex-row justify-center p-6 lg:p-16 gap-6">
-                        <div className="w-full lg:w-1/3">
-                            <div className="border-4 border-white bg-blue-100 rounded-lg text-center p-6">
-                                <button className="bg-pink-50 text-pink-500 py-0.5 px-4 rounded-full">
-                                    Classique
-                                </button>
-                                <h2 className="text-2xl mt-2 text-black">5.000FCFA</h2>
-                            </div>
+                    <div className="flex flex-col sm:flex-row justify-center gap-4 py-10">
+                        <div
+                            className="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
+                            <h2 className="text-lg sm:text-xl font-medium text-white mb-2">Classique</h2>
+                            <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
+                                <span className="text-3xl sm:text-4xl font-bold text-white">5.000FCFA</span> / Mois
+                            </p>
+                        
 
 
-                            <div className="bg-white rounded-lg p-3 ">
-                                <p className="text-[16px] text-black p-6">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam esse excepturi, magni, repellendus?
-                                </p>
-                                <div className="flex justify-center">
-                                    <button className="bg-[#FD2284] text-white text-xs py-2 px-4 rounded-full mt-2">
-                                        Obtenir un billet
-                                    </button>
-                                </div>
-                            </div>
+                            <p className="text-[16px] text-white ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam esse excepturi, magni, repellendus?
+                            </p>
+
+                            <a target="_blank" rel="noopener noreferrer"
+                                className="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 mt-10 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                                href="#"><span className="relative text-sm font-semibold text-black"> Obtenir un billet</span></a>
                         </div>
 
-                        <div className="w-full lg:w-1/3">
-                            <div className="border-4 border-white bg-blue-100 rounded-lg text-center p-6">
-                                <button className="bg-orange-500 text-white py-0.5 px-4 rounded-full">
-                                    Premium
-                                </button>
-                                <h2 className="text-2xl mt-2 text-black">15.000FCFA</h2>
-                            </div>
-                            <div className="bg-indigo-500 rounded-lg p-3">
-                                <p className="text-[16px] text-white p-6">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam esse excepturi, magni, repellendus?
-                                </p>
-                                <div className="flex justify-center">
-                                    <button className="bg-white text-indigo-500 text-xs py-2 px-4 rounded-full mt-2">
-                                        Obtenir un billet
-                                    </button>
-                                </div>
-                            </div>
+
+
+                        <div
+                            className="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
+                            <h2 className="text-lg sm:text-xl font-medium text-white mb-2">Premium</h2>
+                            <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
+                                <span className="text-3xl sm:text-4xl font-bold text-white">15.000FCFA</span> / Mois
+                            </p>
+                        
+
+                            <p className="text-[16px] text-white ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam esse excepturi, magni, repellendus?
+                            </p>
+
+                            <a target="_blank" rel="noopener noreferrer"
+                                className="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 mt-10 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                                href="#"><span className="relative text-sm font-semibold text-black">Obtenir un billet</span></a>
                         </div>
 
-                        <div className="w-full lg:w-1/3">
-                            <div className="border-4 border-white bg-blue-100 rounded-lg text-center p-6">
-                                <button className="bg-blue-200 text-indigo-500 py-0.5 px-4 rounded-full">
-                                    VIP
-                                </button>
-                                <h2 className="text-2xl mt-2 text-black">50.000FCFA</h2>
-                            </div>
-                            <div className="bg-white rounded-lg p-3 ">
-                                <p className="text-[16px] text-black p-6">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam esse excepturi, magni, repellendus?
-                                </p>
-                                <div className="flex justify-center">
-                                    <button className="bg-[#FD2284] text-white text-xs py-2 px-4 rounded-full mt-2">
-                                        Obtenir un billet
-                                    </button>
-                                </div>
-                            </div>
+
+
+                        <div
+                            className="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
+                            <h2 className="text-lg sm:text-xl font-medium text-white mb-2">VIP</h2>
+                            <p className="text-lg sm:text-xl text-center mb-8 mt-4 text-gray-400">
+                                <span className="text-3xl sm:text-4xl font-bold text-white">50.000FCFA</span> / Mois
+                            </p>
+
+                            <p className="text-[16px] text-white ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam esse excepturi, magni, repellendus?
+                            </p>
+
+                        
+
+                            <a target="_blank" rel="noopener noreferrer"
+                                className="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 mt-10 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                                href="#"><span className="relative text-sm font-semibold text-black">Obtenir un billet</span>
+                            </a>
                         </div>
                     </div>
                 </div>

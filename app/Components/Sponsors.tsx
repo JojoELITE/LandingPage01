@@ -45,50 +45,47 @@ const sponsors0 = [
 export default function Sponsors() {
     return (
         <div>
-            <section className="bg-blue-100 text-black p-4 md:p-20">
-                <div className="container mx-auto">
-                    <div className=' text-center '>
-                        <h6 className='text-sm text-[#FD2284]'>NOS SPONSORS</h6>
-                        <h2 className="text-xl lg:text-3xl text-black mt-2">PLUS DE 100 SPONSORS D'UNE GRANDE ENTREPRISE</h2>
-
-                    </div>
+            <section className="container mx-auto bg-cover text-black p-12"
+                style={{ backgroundImage: "url('/assets/Overlay.png')" }}>
 
 
-                    <div>
+                <div className=' text-center '>
+                    <h6 className='text-sm text-[#FD2284]'>NOS SPONSORS</h6>
+                    <h2 className="text-xl lg:text-3xl text-black mt-2">PLUS DE 100 SPONSORS D'UNE GRANDE ENTREPRISE</h2>
 
-                        <div className="flex flex-wrap gap-20 justify-center py-12 ">
-
-                            <div className="flex flex-wrap  gap-8 justify-center">
-                                {sponsors0.map((entreprise) => (
-                                    <div className="flex flex-col text-center">
+                </div>
 
 
-                                        <div className=''>
-                                            <p className="font-semibold text-xl mt-2">{entreprise.name}</p>
-                                        </div>
+                <div>
 
-                                        <div className="flex items-center gap-2   ">
+                    <div className="flex flex-wrap gap-20 justify-center py-12 ">
 
-                                            <a className='flex gap-2' href={entreprise.link} target="_blank" rel="noopener noreferrer">
-                                                <Image
-                                                    className="w-28 h-10  "
-                                                    src={entreprise.image}
-                                                    alt="Logo"
-                                                    width={100}
-                                                    height={100}
-                                                />
-                                            </a>
+                        <div className="flex flex-wrap  gap-8 justify-center">
+                            {sponsors0.map((entreprise) => (
+                                <div className="flex flex-col text-center">
 
-                                        </div>
+
+                                    <div className=''>
+                                        <p className="font-semibold text-xl mt-2">{entreprise.name}</p>
+                                    </div>
+
+                                    <div className="flex items-center gap-2   ">
+
+                                        <a className='flex gap-2' href={entreprise.link} target="_blank" rel="noopener noreferrer">
+                                            <Image
+                                                className="w-28 h-10  "
+                                                src={entreprise.image}
+                                                alt="Logo"
+                                                width={100}
+                                                height={100}
+                                            />
+                                        </a>
 
                                     </div>
 
-                                ))}
-                            </div>
+                                </div>
 
-
-
-
+                            ))}
                         </div>
 
                     </div>

@@ -2,12 +2,17 @@ import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 
+
 import { Quote } from 'lucide-react';
 import { MoveLeft } from 'lucide-react';
 import { MoveRight } from 'lucide-react';
 
 
 function Testimony() {
+
+
+
+
     return (
 
         <div>
@@ -51,12 +56,13 @@ function Testimony() {
 
                 <div className="w-full lg:w-1/2 hidden lg:block">
                     <Image
-                        className="w-[60%] h-[80%] rounded-full ml- lg:ml-0 mt-0 lg:mt-10"
+                        className="w-[60%]  rounded-full "
                         src="/assets/couleur.png"
                         alt="Logo"
                         width={100}
                         height={100}
-                    />
+                    />    
+
                 </div>
 
             </main>

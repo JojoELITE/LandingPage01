@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+
 
 import { ChevronRight } from 'lucide-react';
 import { Facebook } from 'lucide-react';
@@ -7,15 +8,47 @@ import { Instagram } from 'lucide-react';
 import { Twitter } from 'lucide-react';
 
 function Footer() {
+
+
+    const [showButton, setShowButton] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 300) {
+                setShowButton(true);
+            } else {
+                setShowButton(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
+
+
     return (
 
-        <div>
-            <main className="container mx-auto flex flex-col lg:flex-row bg-blue-50 p-6 lg:p-16 gap-6 lg:gap-10">
-                <section className="bg-blue-50 text-black w-full lg:w-1/2">
+        <div id='contact'>
+            <main className="container mx-auto flex flex-col lg:flex-row bg-blue-50 p-6 lg:p-16 gap-6 lg:gap-10 
+            
+            bg-cover bg-center h-58"
+                style={{ backgroundImage: "url('/assets/Overlay.png')" }}>
+
+
+                <section className="text-black w-full lg:w-1/2">
                     <div className="container mx-auto">
                         <h2 className="text-xl lg:text-3xl">PRÊT À COMMENCER</h2>
                         <p className="text-black  text-sm lg:text-xl">
-                            Si vous souhaitez poser des questions, 
+                            Si vous souhaitez poser des questions,
                             <br />
                             nous répondrons à toutes vos questions
                         </p>
@@ -74,6 +107,13 @@ function Footer() {
                     </div>
                 </div>
             </main>
+
+            <button
+                onClick={scrollToTop}
+                className="fixed bottom-4 right-4 p-6 bg-pink-500 text-white rounded-full shadow-lg hover:bg-pink-600 focus:outline-none"
+            >
+                ↑
+            </button>
         </div>
 
 
