@@ -6,7 +6,7 @@ const TicketSection = () => {
         <div id='tickets'>
             <main className="container mx-auto">
 
-                <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 p-32 lg:p-">
+                <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 p-6 lg:p-52">
 
                     <div className="text-center ">
                         <h6 className="text-xl lg:text-3xl text-pink-500 uppercase">Choisissez vos billets</h6>
