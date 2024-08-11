@@ -107,7 +107,7 @@ const Schedule = () => {
     return (
         <section id='schedule' className="">
 
-            <div className='md:col lg:flex gap-6  py- px-20'>
+            <div className='md:col lg:flex gap-6   px-20'>
                 <div className="md:w-1/2">
                     <h6 className="text-sm mt-4 text-[#FD2284] uppercase">HORAIRE DE L'ÉVÉNEMENT</h6>
                     <h2 className="text-xl lg:text-3xl text-black uppercase">
@@ -138,24 +138,24 @@ const Schedule = () => {
 
                 <div className="container mx-auto mt-10 lg:mt-0">
                     <div className="text-center ">
-                        <div className="space-x-4">
+                        <div className="flex gap-1 lg:gap-5">
                             <button
                                 onClick={() => handleDayChange('day1')}
-                                className={`px-6 py-2 rounded-full ${selectedDay === 'day1' ? 'bg-pink-500 text-white' : 'bg-gray-200 text-gray-700'
+                                className={`px-3 py-2 rounded-full ${selectedDay === 'day1' ? 'bg-pink-500 text-white' : 'bg-gray-200 text-gray-700'
                                     }`}
                             >
                                 Jour 01 <br /> 08/10/2024
                             </button>
                             <button
                                 onClick={() => handleDayChange('day2')}
-                                className={`px-6 py-2 rounded-full ${selectedDay === 'day2' ? 'bg-pink-500 text-white' : 'bg-gray-200 text-gray-700'
+                                className={`px-3 py-2 rounded-full ${selectedDay === 'day2' ? 'bg-pink-500 text-white' : 'bg-gray-200 text-gray-700'
                                     }`}
                             >
                                 Jour 02 <br /> 09/10/2024
                             </button>
                             <button
                                 onClick={() => handleDayChange('day3')}
-                                className={`px-6 py-2 rounded-full ${selectedDay === 'day3' ? 'bg-pink-500 text-white' : 'bg-gray-200 text-gray-700'
+                                className={`px-3 py-2 rounded-full ${selectedDay === 'day3' ? 'bg-pink-500 text-white' : 'bg-gray-200 text-gray-700'
                                     }`}
                             >
                                 Jour 03 <br /> 10/10/2024
@@ -178,9 +178,9 @@ const Schedule = () => {
                                                 <span className="block text-pink-500">{event.location}</span>
                                             </div>
                                         </div>
-                                        <h3 className="text-2xl font-bold text-gray-900 mt-2">{event.title}</h3>
-                                        <p className="text-gray-600 mt-2">{event.description}</p>
-                                        <div className="flex items-center space-x-4 mt-4">
+                                        <h3 className="text-xs lg:text-2xl font-bold text-gray-900 mt-2">{event.title}</h3>
+                                        <p className="text-gray-600 text-xs lg:text-xl mt-2">{event.description}</p>
+                                        <div className="md:col lg:flex items-center space-x-4 mt-4">
                                             {event.speakers.map((speaker) => (
                                                 <div key={speaker.name} className="flex items-center space-x-2">
                                                     <img
@@ -205,9 +205,9 @@ const Schedule = () => {
 
                         <div className="">
                             {eventsByDay2[selectedDay].map((event, index) => (
-                                <div key={event.id} className="flex items-center space-x-4 bg-white shadow-lg rounded-lg mt-6">
+                                <div key={event.id} className="flex items-center space-x-4 bg-white shadow-lg  rounded-lg mt-6">
                                     <div className="flex items-center justify-center w-12 h-12 bg-pink-500 text-white rounded-full text-lg font-bold">
-                                        {String(index + 1).padStart(2, '0')}
+                                        {String(index + 2).padStart(2, '0')}
                                     </div>
                                     <div className="w-full py-10">
                                         <div className="flex justify-between items-center">
@@ -216,9 +216,9 @@ const Schedule = () => {
                                                 <span className="block text-pink-500">{event.location}</span>
                                             </div>
                                         </div>
-                                        <h3 className="text-2xl font-bold text-gray-900 mt-2">{event.title}</h3>
-                                        <p className="text-gray-600 mt-2">{event.description}</p>
-                                        <div className="flex items-center space-x-4 mt-4">
+                                        <h3 className="text-xs lg:text-2xl font-bold text-gray-900 mt-2">{event.title}</h3>
+                                        <p className="text-gray-600 text-xs lg:text-xl mt-2">{event.description}</p>
+                                        <div className="md:col lg:flex items-center space-x-4 mt-4">
                                             {event.speakers.map((speaker) => (
                                                 <div key={speaker.name} className="flex items-center space-x-2">
                                                     <img
@@ -226,7 +226,7 @@ const Schedule = () => {
                                                         alt={speaker.name}
                                                         className="w-10 h-10 rounded-full object-cover"
                                                     />
-                                                    <div>
+                                                    <div className=''>
                                                         <p className="text-gray-800 font-semibold">{speaker.name}</p>
                                                         <p className="text-gray-600 text-sm">{speaker.role}</p>
                                                     </div>

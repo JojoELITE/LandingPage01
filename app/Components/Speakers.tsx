@@ -75,7 +75,7 @@ function Speakers() {
 
                 <section className="text-white ">
 
-                    <div className="area container mx-auto">
+                    <div className="area container mx-auto ">
                         <ul className="circles">
                             <li></li>
                             <li></li>
