@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const heroData = {
   event: {
-    titre: 'LA CONFÉRENCE POUR LES STARTUPS GABONAISES',
+    titre: 'LA CONFÉRENCE<br />POUR LES STARTUPS <br /> GABONAISES',
     soustitre: 'La Conférence sur les technologies émergentes 2024 aborde la tendance et les meilleures techniques de nouvelle génération. Sauvez votre invitation pour apprendre de votre avenir imminent et actuel.',
     teaserLink: 'https://youtube.com/',
     teaserText: 'Regarder le teaser'
@@ -41,9 +41,12 @@ function Hero() {
                 <div className="border-b-2 border-[#FEAE37] w-10 my-2"></div>
                 <h5 className='font-bold text-2xl text-white'>2024</h5>
               </div>
-              <h1 className="text-xl md:text-2xl lg:text-6xl font-sans font-medium text-white">
-                {heroData.event.titre}
+              <h1 className="text-xl md:text-2xl lg:text-[58px] font-sans font-medium text-white"
+                style={{ lineHeight: '1' }}
+
+                dangerouslySetInnerHTML={{ __html: heroData.event.titre }}>
               </h1>
+
               <p className="text-white text-sm lg:text-xl mt-5">
                 {heroData.event.soustitre}
               </p>

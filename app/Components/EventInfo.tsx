@@ -5,14 +5,14 @@ const aboutData = {
     description: "La Digital Technology Conference vous convie à la conférence des technologies émergentes qui se tiendra du 22 au 24 mars 2024. Cette conférence vous donnera un aperçu des technologies émergentes les plus récentes et de leurs impacts sur le secteur technologique.",
     contactButton: {
         text: "Contactez-nous",
-        link: "" 
+        link: ""
     },
     statistics: [
         {
             id: 1,
-            color: "#FD2284",
+            color: "#FD2586",
             count: "10.000",
-            description: "Conférence Billets confirmés"
+            description: "Conférence Billets <br /> confirmés"
         },
         {
             id: 2,
@@ -30,7 +30,7 @@ const aboutData = {
             id: 4,
             color: "#0166FF",
             count: "100+",
-            description: "Sponsors de grandes entreprises"
+            description: "Sponsors de grandes <br />  entreprises"
         }
     ],
     image: "/assets/Overlay.png"
@@ -41,7 +41,7 @@ function About() {
         <div id='about'>
             <main className="container mx-auto">
                 <section className="flex flex-col md:flex-row p-16 gap-16">
-                    <div className="grid grid-cols-1 md:grid-cols-2 hidden md:block sm:block">
+                    <div className="grid-cols-1 md:grid-cols-2 hidden md:block sm:block">
                         <div className="flex gap-4 mt-8">
                             <div>
                                 <div className="bg-gray-200 px-20 py-32 rounded-lg w-[50%]"></div>
@@ -71,9 +71,15 @@ function About() {
                     <div className="flex flex-wrap p-6">
                         {aboutData.statistics.map(stat => (
                             <div key={stat.id} className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                                <div className={`bg-[${stat.color}] border-2 border-gray-600 px-4 py-16 rounded-lg transform transition duration-500 hover:scale-110`}>
+                                <div
+                                    className="border-2 border-gray-600 px-4 py-16 rounded-lg transform transition duration-500 hover:scale-110"
+                                    style={{ backgroundColor: stat.color }}
+                                >
                                     <h2 className="title-font font-medium text-3xl text-white">{stat.count}</h2>
-                                    <p className="text-white">{stat.description}</p>
+                                    <p className="text-white"
+                                        dangerouslySetInnerHTML={{ __html: stat.description}}>
+
+                                    </p>
                                 </div>
                             </div>
                         ))}
