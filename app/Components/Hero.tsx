@@ -5,11 +5,21 @@ import { Calendar, Play, MapPin } from 'lucide-react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const images = [
-  "/assets/spek3.jpg",
-  "/assets/spek4.jpg",
+
+
+
+const hero = [
+
+  {
+
+    titre: 'LA CONFÉRENCE POUR LES STARTUPS GABONAISES',
+    soustitre: 'La Conférence sur les technologies émergentes 2024 aborde la tendance et les meilleures techniques de nouvelle génération. Sauvez votre invitation pour apprendre de votre avenir imminent et actuel.',
+
+  },
+
 
 ];
+
 
 function Hero() {
 
@@ -29,31 +39,47 @@ function Hero() {
 
 
         <div className="relative z-10 md:w-1/2">
-          <div className='flex gap-2 items-center'>
-            <div className="border-b-2 border-[#FEAE37] w-10 my-2"></div>
-            <h5 className='font-bold text-2xl text-white'>2024</h5>
-          </div>
-          <h1 className="text-xl md:text-2xl lg:text-6xl font-sans font-medium text-white">
-            LA CONFÉRENCE POUR LES STARTUPS GABONAISES
-          </h1>
 
-          <p className="text-white text-sm lg:text-xl  mt-5">
-            La Conférence sur les technologies émergentes 2024 aborde la tendance et
-            les meilleures techniques de nouvelle génération. Sauvez votre invitation pour
-            apprendre l'avenir imminent et actuel.
-          </p>
+          <div className="">
+            {hero.map((hero) => (
+              <div>
 
-          <Link href="https://youtube.com/" className="flex items-center gap-2">
-            <div className="w-5 h-5 mt-8 border border-[#B82078] rounded-full flex items-center justify-center">
-              <div className="w-3 h-3 bg-white rounded-full ">
-                <Play className='mt-0.5 ml-0.5' color="black" size={8} />
+
+                <div className='flex gap-2 items-center'>
+                  <div className="border-b-2 border-[#FEAE37] w-10 my-2"></div>
+                  <h5 className='font-bold text-2xl text-white'>2024</h5>
+                </div>
+                <h1 className="text-xl md:text-2xl lg:text-6xl font-sans font-medium text-white">
+                  {hero.titre}
+                </h1>
+
+                <p className="text-white text-sm lg:text-xl  mt-5">
+                  {hero.soustitre}
+                </p>
+
+
+
+                <Link href="https://youtube.com/" className="flex items-center gap-2">
+                  <div className="w-5 h-5 mt-8 border border-[#B82078] rounded-full flex items-center justify-center">
+                    <div className="w-3 h-3 bg-white rounded-full ">
+                      <Play className='mt-0.5 ml-0.5' color="black" size={8} />
+                    </div>
+                  </div>
+                  <div className='mt-8 text-[18px] text-white'>
+                    Regarder le teaser
+                  </div>
+                </Link>
+
+
               </div>
-            </div>
-            <div className='mt-8 text-[18px] text-white'>
-              Regarder le teaser
-            </div>
-          </Link>
+
+
+            ))}
+          </div>
+
+
         </div>
+
 
         <div className="w-full md:w-1/2 lg:w-[25%]  bg-[#FEDE00] p-5 lg:p-8 rounded-lg text-white text-center mt-10 lg:mt-0">
           <p className=" text-sm lg:text-xl text-black">Evénement à venir 2024</p>
@@ -70,6 +96,7 @@ function Hero() {
             </div>
           </div>
         </div>
+
       </section>
     </main>
   )

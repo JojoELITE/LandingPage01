@@ -10,9 +10,6 @@ import { MoveRight } from 'lucide-react';
 
 function Testimony() {
 
-
-
-
     return (
 
         <div>

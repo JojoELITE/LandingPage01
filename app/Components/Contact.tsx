@@ -6,33 +6,7 @@ import { Facebook } from 'lucide-react';
 import { Instagram } from 'lucide-react';
 import { Twitter } from 'lucide-react';
 
-function Footer() {
-
-
-    const [showButton, setShowButton] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > 300) {
-                setShowButton(true);
-            } else {
-                setShowButton(false);
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-        });
-    };
-
+function Contact() {
 
     return (
 
@@ -106,18 +80,9 @@ function Footer() {
                     </div>
                 </div>
             </main>
-
-            <button
-                onClick={scrollToTop}
-                className="hidden lg:fixed lg:bottom-4 lg:right-4 p-6 bg-pink-500 text-white rounded-full shadow-lg hover:bg-pink-600 focus:outline-none">
-                ↑
-            </button>
-
         </div>
-
-
 
     )
 }
 
-export default Footer;
+export default Contact;

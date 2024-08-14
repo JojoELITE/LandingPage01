@@ -17,7 +17,7 @@ function Header() {
 
         <div>
             <header className="bg-[#291D5D] text-white ">
-                <nav className="container mx-auto flex justify-between items-center px-16 py-6">
+                <nav className="container mx-auto flex justify-between items-center px-16 py-8">
                     <div className="">
                         <Link className='' href="#">
                             <Image className='' src="/logo/Logo.png" alt="Logo" width={100} height={100} />

@@ -1,16 +1,6 @@
 import React from 'react'
 
 
-const photo = [
-    {
-
-        image: "/assets/speakers.png",
-    },
-
-];
-
-
-
 function About() {
     return (
         <div id='about' >
@@ -66,7 +56,7 @@ function About() {
                             <div className="bg-[#5B26E1] border-2 border-gray-600 px-4 py-16 rounded-lg transform transition duration-500 hover:scale-110">
 
                                 <h2 className="title-font font-medium text-3xl text-white">40+</h2>
-                                <p className="text-white">Des participants de différents pays</p>
+                                <p className="text-white">Des participants de différents <br /> pays</p>
                             </div>
                         </div>
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">

@@ -9,7 +9,6 @@ const sponsors0 = [
         image: "/logo/vide.png",
         link: "https://videohive.net/",
 
-
     },
 
     {
