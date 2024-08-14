@@ -17,13 +17,14 @@ function Header() {
 
         <div>
             <header className="bg-[#291D5D] text-white ">
-                <nav className="container mx-auto flex justify-between items-center px-16 py-10">
+                <nav className="container mx-auto flex justify-between items-center px-16 py-6">
                     <div className="">
                         <Link className='' href="#">
                             <Image className='' src="/logo/Logo.png" alt="Logo" width={100} height={100} />
                         </Link>
                     </div>
-                    <div className="hidden md:flex space-x-6 text-xl">
+                    <div className="hidden md:flex space-x-3 lg:space-x-8 text-xl items-center">
+                        <Link href="#about" className="hover:underline">About</Link>
                         <Link href="#schedule" className="hover:underline">Schedule</Link>
                         <Link href="#speakers" className="hover:underline">Speakers</Link>
                         <Link href="#tickets" className="hover:underline">Tickets</Link>
@@ -38,9 +39,13 @@ function Header() {
                         </button>
                     </div>
                 </nav>
+
+
+                
                 {isClick && (
                     <div className="md:hidden bg-[#291D5D]">
                         <ul className="flex flex-col items-center space-y-4 py-4 text-xl">
+                            <li><Link href="#about">About</Link></li>
                             <li><Link href="#schedule">Schedule</Link></li>
                             <li><Link href="#speakers">Speakers</Link></li>
                             <li><Link href="#tickets">Tickets</Link></li>

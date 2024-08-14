@@ -51,27 +51,14 @@ function Speakers() {
 
         <div id='speakers'>
 
-            <main className="container mx-auto">
+            <main className="bg-[#1D1E25] container mx-auto p-10 lg:p-16">
 
                 <section className="text-white ">
 
-                    <div className="area container mx-auto ">
-                        <ul className="circles">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
+             
                     <div className=" ">
-                        <div className="text-center py-8 lg;py-16">
-                            <h2 className="text-xl lg:text-3xl uppercase mt-20">Les Speakers</h2>
+                        <div className="text-center py-8 lg:py-2">
+                            <h2 className="text-xl lg:text-3xl uppercase ">Les Speakers</h2>
                             <p className="mt-2 text-xs lg:text-xl ">
                                 Plus de 40 conférenciers inspirants, rencontrez les meilleurs <br /> spécialistes des produits du monde entier et faites la fête <br /> ensemble après l'événement !
                             </p>

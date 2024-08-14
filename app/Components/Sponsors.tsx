@@ -41,7 +41,7 @@ const sponsors0 = [
 export default function Sponsors() {
     return (
         <div>
-            <section className="container mx-auto bg-cover text-black p-6 lg:p-16"
+            <section className=" container mx-auto bg-blue-100 text-black p-6 lg:p-20"
                 >
 
 

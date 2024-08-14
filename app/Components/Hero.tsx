@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import { Calendar, Play, MapPin } from 'lucide-react';
 
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -25,33 +24,20 @@ function Hero() {
   };
 
   return (
-    <main className="relative container mx-auto px-16 py-10 lg:py-52">
+    <main className="bg-[#291D5D]  container mx-auto px-16 py-10 lg:py-32">
       <section className=" flex flex-col md:flex-row items-center justify-between bg-cover bg-no-repeat">
 
-        <div className="absolute inset-0 h-full w-full z-[-1] overflow-hidden">
-          <Slider {...settings}>
-            {images.map((image, index) => (
-              <div key={index} className="h-full relative">
-                <img
-                  src={image}
-                  alt={`Slide ${index + 1}`}
-                  className="w-full  h-[700px] lg:h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-black opacity-30"></div>
-              </div>
-            ))}
-          </Slider>
-        </div>
 
         <div className="relative z-10 md:w-1/2">
           <div className='flex gap-2 items-center'>
             <div className="border-b-2 border-[#FEAE37] w-10 my-2"></div>
             <h5 className='font-bold text-2xl text-white'>2024</h5>
           </div>
-          <h1 className="text-xl lg:text-4xl font-bold text-white ">
-            LA CONFÉRENCE <br />POUR LES STARTUPS GABONAISE
+          <h1 className="text-xl md:text-2xl lg:text-6xl font-sans font-medium text-white">
+            LA CONFÉRENCE POUR LES STARTUPS GABONAISES
           </h1>
-          <p className="text-white text-sm lg:text-xl mt-4">
+
+          <p className="text-white text-sm lg:text-xl  mt-5">
             La Conférence sur les technologies émergentes 2024 aborde la tendance et
             les meilleures techniques de nouvelle génération. Sauvez votre invitation pour
             apprendre l'avenir imminent et actuel.
@@ -69,18 +55,18 @@ function Hero() {
           </Link>
         </div>
 
-        <div className="relative z-10 md:w-1/3  rounded-lg text-white text-center">
-          <p className=" text-sm lg:text-xl">Evénement à venir 2024</p>
-          <h6 className=" text-sm lg:text-xl font-bold">Digital Technologies</h6>
-          <div className="border-b-2 border-white my-2 lg:my-5 w-[50%] ml-14 lg:ml-28"></div>
+        <div className="w-full md:w-1/2 lg:w-[25%]  bg-[#FEDE00] p-5 lg:p-8 rounded-lg text-white text-center mt-10 lg:mt-0">
+          <p className=" text-sm lg:text-xl text-black">Evénement à venir 2024</p>
+          <h6 className=" text-sm lg:text-xl font-bold text-black">Digital Technologies</h6>
+          <div className="border-b-2 border-gray-50 my-2 lg:my-5 ml-14 lg:ml-0"></div>
           <div className="text-center">
             <div className="flex items-center gap-2 justify-center">
-              <MapPin color="white" size={20} />
-              <h6 className="">ABC Mail Libreville</h6>
+              <MapPin color="black" size={20} />
+              <h6 className="text-black">ABC Mail Libreville</h6>
             </div>
             <div className="flex items-center gap-2 mt-1 justify-center">
-              <Calendar color="white" size={20} />
-              <h6 className="">22-24 March 2024</h6>
+              <Calendar color="black" size={20} />
+              <h6 className="text-black">22-24 March 2024</h6>
             </div>
           </div>
         </div>

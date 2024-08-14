@@ -7,6 +7,7 @@ import Speakers from './Components/Speakers';
 import Contact from './Components/Contact';
 import Testimony from './Components/Testimony';
 import Ticket from './Components/Ticket';
+import Sponsors from './Components/Sponsors'
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
 
         <Ticket />
 
+        <Sponsors />
 
         <Testimony />
 

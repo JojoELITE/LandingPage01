@@ -172,7 +172,7 @@ const Schedule = () => {
                                         {String(index + 1).padStart(2, '0')}
                                     </div>
 
-                                    <div className="w-full py-10">
+                                    <div className="w-full py-10 px-6 lg:px-0">
                                         <div className="flex justify-between items-center">
                                             <div>
                                                 <span className="block text-gray-700">{event.time}</span>
@@ -211,7 +211,7 @@ const Schedule = () => {
                                         {String(index + 2).padStart(2, '0')}
                                     </div>
 
-                                    <div className="w-full py-10 px-10 ">
+                                    <div className="w-full py-10 px-12 lg:px-0">
                                         <div className="flex justify-between items-center">
                                             <div>
                                                 <span className="block text-gray-700">{event.time}</span>
