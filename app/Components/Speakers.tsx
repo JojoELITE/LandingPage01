@@ -1,12 +1,12 @@
 import React from 'react'
-
 import VoirPlusUsers from './VoirPlusUsers';
+
 
 const users = [
     {
         fullName: "Emily",
         job: "UX Designer",
-        image: "/assets/spek3.jpg", // Assurez-vous que cette image existe
+        image: "/assets/spek3.jpg", 
         link: "#",
         link1: "##",
         link2: "###",
@@ -16,7 +16,7 @@ const users = [
     {
         fullName: "Jean Pierre",
         job: "Chanteuse",
-        image: "/assets/spek4.jpg", // Assurez-vous que cette image existe
+        image: "/assets/spek4.jpg", 
         link: "#",
         link1: "##",
         link2: "###",
@@ -26,7 +26,7 @@ const users = [
     {
         fullName: "Johnson",
         job: "UX Designer",
-        image: "/assets/spek3.jpg", // Assurez-vous que cette image existe
+        image: "/assets/spek3.jpg", 
         link: "#",
         link1: "##",
         link2: "###",
@@ -36,7 +36,7 @@ const users = [
     {
         fullName: "Pierre",
         job: "Chanteuse",
-        image: "/assets/spek4.jpg", // Assurez-vous que cette image existe
+        image: "/assets/spek4.jpg", 
         link: "#",
         link1: "##",
         link2: "###",
