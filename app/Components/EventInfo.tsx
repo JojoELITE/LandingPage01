@@ -18,13 +18,13 @@ const aboutData = {
             id: 2,
             color: "#FB6238",
             count: "8+",
-            description: "Partenaires propulsés haut-parleurs"
+            description: "Partenaires propulsés <br /> haut-parleurs"
         },
         {
             id: 3,
             color: "#5B26E1",
             count: "40+",
-            description: "Des participants de différents pays"
+            description: "Des participants de différents <br /> pays"
         },
         {
             id: 4,

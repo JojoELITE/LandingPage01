@@ -65,9 +65,9 @@ function Hero() {
         </div>
 
         <div className="w-full md:w-1/2 lg:w-[25%] bg-[#FEDE00] p-5 lg:p-8 rounded-lg text-white text-center mt-10 lg:mt-0">
-          <p className="text-sm lg:text-xl text-black">{heroData.upcomingEvent.title}</p>
-          <h6 className="text-sm lg:text-xl font-bold text-black">{heroData.upcomingEvent.subtitle}</h6>
-          <div className="border-b-2 border-gray-50 my-2 lg:my-5 ml-14 lg:ml-0"></div>
+          <p className="text-xl lg:text-xl text-black">{heroData.upcomingEvent.title}</p>
+          <h6 className="text-xl lg:text-xl font-bold text-black">{heroData.upcomingEvent.subtitle}</h6>
+          <div className="border-b-2 border-gray-50 my-2 lg:my-5 "></div>
           <div className="text-center">
             <div className="flex items-center gap-2 justify-center">
               <MapPin color="black" size={20} />
